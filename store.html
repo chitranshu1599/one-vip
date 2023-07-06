@@ -8,7 +8,24 @@
     <link rel="stylesheet" href="/style/style.css">
     <title>Store-Page</title>
 </head>
-
+<style>
+  .dropdown-menu li {
+position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+display: none;
+position: absolute;
+left: 100%;
+top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
+}
+</style>
 <body>
     <div class="container fixed-top">
         <div class="navbar-section pt-4">
@@ -23,10 +40,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link nav-heading active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link nav-heading active" aria-current="page" href="landing_page.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-heading" href="#">Store</a>
+                    <a class="nav-link nav-heading" href="store.html">Store</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link nav-heading" href="#">About Us</a>
@@ -70,22 +87,25 @@
                             <button class="input-group-text">Go</button>
                         </div>
                     </div>
-                    <div>
-                        <div class="btn-group">
-                            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Large button
-                            </button>
-                            <div class="dropdown-menu">
-                                <div class="btn-group">
-                                    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Large button
-                                    </button>
-                                    <div class="dropdown-menu">
-                                      abccccc
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="category-button">
+                      <div class="input-group">
+                        <button class="btn btn-category dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown <img src="/assets/img/bottom-arrow.svg" alt="bottom-arrow"></button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action <img src="/assets/img/bottom-arrow.svg" alt="bottom-arrow"></a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                          </li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                      </div>
                     </div>
                     <div></div>
                     <div></div>
@@ -198,5 +218,10 @@
     </div>  
 
 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 </html>

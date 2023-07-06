@@ -798,3 +798,32 @@ hr.hr-bottom{
     border: 1px solid #00A1BA;
     border-radius: 20px !important;
 }
+
+.category-button .dropdown-toggle::after {
+    display: none;
+}
+
+.category-button .btn-category{
+    color: #4E4E4E;
+    background-color: #FBAF02;
+    border-color: #FBAF02;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.sum-button input,
+input::placeholder {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4E4E4E !important;
+
+}
