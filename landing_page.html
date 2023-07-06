@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style/style.css">
+  <title>Landing-Page</title>
+</head>
+
+<body>
+  <div class="container fixed-top">
+    <div class="navbar-section pt-4">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark topbar">
+        <div class="container-fluid px-4">
+          <a class="navbar-brand" href="#"><img src="/assets//img/logo.svg" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link nav-heading active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-heading" href="#">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-heading" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-heading" href="#">Contact Us/Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-heading" href="#"><img src="/assets/img/search.svg" alt="search"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-heading" href="#"><img src="/assets/img/cart.svg" alt="cart"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-heading" href="#"><img src="/assets/img/profile.svg" alt="profile"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>  
+  <div class="container margin-topbar"> 
+    <div class="vipnumber-section">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-7 left-part">
+          <h4 class="head">Grab your<br><span id='text'></span><div class='console-underscore' id='console'>|</div>NOW!</h4>
+          <div class="search-number-tab">
+            <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link ms-2 search-tab-head advance" id="advance-tab" data-bs-toggle="modal" data-bs-target="#advance" type="button" role="tab" aria-controls="advance"
+                  aria-selected="true">Advance</button>
+                <div class="modal fade" id="advance" tabindex="-1" aria-labelledby="advanceLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content1">
+                      <div class="modal-content1 modal-box1">
+                        <div class="modal-header p-0" style="border-bottom: 0;">
+                          <div>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link p-0 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link p-0" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="pe-2">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        </div>
+                        <div class="tab-content search-content" id="myTabContent">
+                          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="advance-box">
+                              <div class="search-option">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                              </div>
+                              <div class="radio-option">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                  <label class="form-check-label" for="flexRadioDefault1">
+                                    Start With
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                  <label class="form-check-label" for="flexRadioDefault2">
+                                    End With
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                  <label class="form-check-label" for="flexRadioDefault2">
+                                    Anywhere
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="submit-button">
+                                <button class="btn rounded-pill advance-btn" type="submit">Search</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="advance-search">
+                              <div class="numb-placement mb-4">
+                                <h3 class="heading">Number Placement</h3>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Start with e.g.(+91 8819)" aria-label="Search">
+                                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Anywhere" aria-label="Search">
+                                  <input class="form-control me-2 rounded-pill" type="search" placeholder="End With" aria-label="Search">
+                                </div>
+                              </div>
+                              <div class="others mb-4">
+                                <h3 class="heading">Others (For multiple values use comma (s) e.g. 14, 18)</h3>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Start with e.g.(+91 8819)" aria-label="Search">
+                                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Anywhere" aria-label="Search">
+                                  <input class="form-control me-2 rounded-pill" type="search" placeholder="End With" aria-label="Search">
+                                </div>
+                              </div>
+                              <div class="totalsum mb-4">
+                                <h3 class="heading">Total/Sum</h3>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Number Total" aria-label="Search">
+                                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Number Sum" aria-label="Search">
+                                </div>
+                              </div>
+                              <div class="submit-button">
+                                <button class="btn rounded-pill advance-btn" type="submit">Search</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link ms-2 search-tab-head active" id="anywhere-tab" data-bs-toggle="tab"
+                  data-bs-target="#anywhere" type="button" role="tab" aria-controls="anywhere"
+                  aria-selected="true">Anywhere</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link ms-2 search-tab-head" id="startwith-tab" data-bs-toggle="tab" data-bs-target="#startwith"
+                  type="button" role="tab" aria-controls="startwith" aria-selected="false">Start With</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link ms-2 search-tab-head" id="endwith-tab" data-bs-toggle="tab" data-bs-target="#endwith"
+                  type="button" role="tab" aria-controls="endwith" aria-selected="false">End With</button>
+              </li>
+            </ul>
+            <div class="tab-content mt-3" id="myTabContent">
+              <div class="tab-pane fade show active" id="anywhere" role="tabpanel" aria-labelledby="anywhere-tab">
+                <form class="d-flex">
+                  <input class="form-control me-2 px-4 rounded-pill search-input-btn" type="search" placeholder="Eg. 91 63 422254666" aria-label="Search">
+                  <button class="btn rounded-pill search-btn" type="submit">Search</button>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="startwith" role="tabpanel" aria-labelledby="startwith-tab">
+                <form class="d-flex">
+                  <input class="form-control me-2 px-4 rounded-pill search-input-btn" type="search" placeholder="Eg. 91 63 422254666" aria-label="Search">
+                  <button class="btn rounded-pill search-btn" type="submit">Search</button>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="endwith" role="tabpanel" aria-labelledby="endwith-tab">
+                <form class="d-flex">
+                  <input class="form-control me-2 px-4 rounded-pill search-input-btn" type="search" placeholder="Eg. 91 63 422254666" aria-label="Search">
+                  <button class="btn rounded-pill search-btn" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 right-part">
+          <div id="circle">
+            <img class="text" src="/assets/img/framecircle.svg" alt="">
+            <img class="image" src="/assets/img/banner-img.jpg" alt="banner">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="exclusive-number">
+      <hr class="hr-line1">
+      <h1 class="top-heading">How to get your exclusive number?</h1>
+      <div class="exclusive-content">
+        <div class="favorite-number margin-right">
+        <img class="favorite-icon" src="/assets/img/number.svg" alt="number">
+        <p class="para">Select Favorite VIP Number</p>
+      </div>
+      <div class="payamount margin-right">
+        <img class="favorite-icon" src="/assets/img/payamount.svg" alt="amount">
+        <p class="para">Pay amount with zero Risk & Hassle</p>
+      </div>
+      <div class="upc margin-right">
+        <img class="favorite-icon" src="/assets/img/upc.svg" alt="upc">
+        <p class="para">Wait for Unique Porting Code</p>
+      </div>
+      <div class="retailer margin-right">
+        <img class="favorite-icon" src="/assets/img/retailer.svg" alt="retailer">
+        <p class="para">Visit Nearest Retailer Shop For activation</p>
+      </div>
+      <div class="activation">
+        <img class="favorite-icon" src="/assets/img/activation.svg" alt="activation">
+        <p class="para">Your number will be activated within 4 to 5 working days</p>
+      </div>
+      </div>
+      <hr class="hr-line2">
+    </div>
+    <div class="featured-vip-section">
+      <h1 class="top-heading">Featured VIP Numbers</h1>
+      <div class="featured-card-content">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+            <div class="card card1">
+              <div class="card-body p-0">
+                <div class="top-head">
+                  <h3 class="heading m-0">88-777-07-887</h3>
+                </div>
+                <div class="middle-head">
+                  <p class="para m-0">Total - 67</p>
+                  <p class="para m-0">| Sum - 4 |</p>
+                  <p class="para1 m-0">R2P</p>
+                </div>
+                <div class="bottom-head">
+                  <h6 class="left m-0">Similar Number</h6>
+                  <h4 class="right m-0">₹ 3,615</h4>
+                </div>
+                <div class="add-to-cart-btn">
+                  <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="view-more">View More.....</p>
+      </div>
+    </div>
+    <div class="multiple-options-section">
+      <div class="multiple-options">
+        <div class="satisfaction">
+          <img class="img-category1" src="/assets/img/satisfaction.svg" alt="satisfaction">
+          <h4 class="heading">100% Satisfaction</h4>
+        </div>
+        <div class="most-trusted">
+          <img class="img-category2" src="/assets/img/most-trusted.svg" alt="most-trusted">
+          <h4 class="heading">India’s Most Trusted Website</h4>
+        </div>
+        <div class="lowest-price">
+          <img class="img-category3" src="/assets/img/lowest-price.svg" alt="lowest-price">
+          <h4 class="heading">Lowest price industrywise</h4>
+        </div>
+        <div class="payment-options">
+          <img class="img-category4" src="/assets/img/payment-options.svg" alt="payment-options">
+          <h4 class="heading">Multiple Payment Options</h4>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-section">
+      <div class="heading">Testimonials</div>
+      <div>
+        <main class="main">
+          <div class="testimonial-container">
+            <div class="scroll">
+              <div class="testimonial-card">
+                <div class="card-body">
+                  <h5 class="card-title head-tag">Good Service, keeping in touch till things happen to you.</h5>
+                  <div class="name-part">
+                    <h5 class="card-title name-tag">-Vishwa Bhushan</h5>
+                    <div class="star-icon">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                    </div>
+                  </div>
+                  <img class="google-icon" src="/assets/img/google-img.svg" alt="google">
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <div class="card-body">
+                  <h5 class="card-title head-tag">Good Service, keeping in touch till things happen to you.</h5>
+                  <div class="name-part">
+                    <h5 class="card-title name-tag">-Vishwa Bhushan</h5>
+                    <div class="star-icon">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                    </div>
+                  </div>
+                  <img class="google-icon" src="/assets/img/google-img.svg" alt="google">
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <div class="card-body">
+                  <h5 class="card-title head-tag">Good Service, keeping in touch till things happen to you.</h5>
+                  <div class="name-part">
+                    <h5 class="card-title name-tag">-Vishwa Bhushan</h5>
+                    <div class="star-icon">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                    </div>
+                  </div>
+                  <img class="google-icon" src="/assets/img/google-img.svg" alt="google">
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <div class="card-body">
+                  <h5 class="card-title head-tag">Good Service, keeping in touch till things happen to you.</h5>
+                  <div class="name-part">
+                    <h5 class="card-title name-tag">-Vishwa Bhushan</h5>
+                    <div class="star-icon">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                    </div>
+                  </div>
+                  <img class="google-icon" src="/assets/img/google-img.svg" alt="google">
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <div class="card-body">
+                  <h5 class="card-title head-tag">Good Service, keeping in touch till things happen to you.</h5>
+                  <div class="name-part">
+                    <h5 class="card-title name-tag">-Vishwa Bhushan</h5>
+                    <div class="star-icon">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                    </div>
+                  </div>
+                  <img class="google-icon" src="/assets/img/google-img.svg" alt="google">
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <div class="card-body">
+                  <h5 class="card-title head-tag">Good Service, keeping in touch till things happen to you.</h5>
+                  <div class="name-part">
+                    <h5 class="card-title name-tag">-Vishwa Bhushan</h5>
+                    <div class="star-icon">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                      <img src="/assets/img/star.svg" alt="star">
+                    </div>
+                  </div>
+                  <img class="google-icon" src="/assets/img/google-img.svg" alt="google">
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>  
+  <div class="footer-section">
+    <div class="container">
+      <div class="footer-content">
+        <div class="left-footer">
+          <img class="company-logo" src="/assets/img/logo.svg" alt="logo">
+          <p class="desc-para">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquamLorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p>
+          <div class="socialmedia-icon">
+            <img class="me-3" src="/assets/img/Facebook.svg" alt="fb">
+            <img class="me-3" src="/assets/img/Twitter.svg" alt="tweet">
+            <img class="me-3" src="/assets/img/Instagram.svg" alt="insta">
+            <img class="me-3" src="/assets/img/LinkedIn.svg" alt="in">
+            <img class="me-3" src="/assets/img/YouTube.svg" alt="yt">
+          </div>
+        </div>
+        <div class="center-footer">
+          <form class="d-flex justify-content-center">
+            <input class="form-control me-2 px-4 rounded-pill search-input-btn" type="search" placeholder="Eg. 91 63 422254666" aria-label="Search">
+            <button class="btn rounded-pill search-btn" type="submit">Search</button>
+          </form>
+          <div class="content-details">
+            <div class="product-details">
+              <h3 class="heading">Product</h3>
+              <ul class="p-0">
+                <li class="list-head">Features</li>
+                <li class="list-head">Pricing</li>
+                <li class="list-head">Case studies</li>
+                <li class="list-head">Reviews</li>
+                <li class="list-head">Updates</li>
+              </ul>
+            </div>
+            <div class="company-details">
+              <h3 class="heading">Company</h3>
+              <ul class="p-0">
+                <li class="list-head">About</li>
+                <li class="list-head">Contact us</li>
+                <li class="list-head">Careers</li>
+                <li class="list-head">Culture</li>
+                <li class="list-head">Blog</li>
+              </ul>
+            </div>
+            <div class="category-details">
+              <h3 class="heading">Category</h3>
+              <ul class="p-0">
+                <li class="list-head">Penta</li>
+                <li class="list-head">Tetra</li>
+                <li class="list-head">786</li>
+                <li class="list-head">Penta</li>
+                <li class="list-head">Zeros</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="right-footer">
+          <div>
+            <button class="btn rounded-pill search-btn" type="submit">Invite and Earn <img class="invite-people" src="/assets/img/invite-earn.svg" alt="people"></button>
+          </div>
+          <div class="contact-content-details">
+            <div class="contact-us-details">
+              <h3 class="heading">Contacts us</h3>
+              <div class="contact-category">
+                <a class="contact-part" href="#email"><img class="me-2" src="/assets/img/Email.svg" alt="email">contact@company.com</a>
+                <a class="contact-part" href="#phone"><img class="me-2" src="/assets/img/Phone.svg" alt="phone">(414) 687 - 5892</a>
+                <a class="contact-part lh-1" href="#address"><img class="me-2" src="/assets/img/location.svg" alt="add">794 Mcallister <br>St. San Francisco, 94102</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="hr-bottom">
+      <div class="copyright-section">
+        <div class="left">
+          <p class="left-text">Copyright © 2022 BRIX Templates</p>
+        </div>
+        <div class="right">
+          <span class="right-text">All Rights Reserved | <a class="text-white" href="t-and-c">Terms and Conditions <span class="mx-1">|</span> Privacy Policy</a></span>
+        </div>
+      </div>
+    </div>
+  </div>  
+ 
+    
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script>
+  const scroll = document.querySelector(".scroll");
+  var isDown = false;
+  var scrollX;
+  var scrollLeft;
+
+  // Mouse Up Function
+  scroll.addEventListener("mouseup", () => {
+    isDown = false;
+    scroll.classList.remove("active");
+  });
+
+  // Mouse Leave Function
+  scroll.addEventListener("mouseleave", () => {
+    isDown = false;
+    scroll.classList.remove("active");
+  });
+
+  // Mouse Down Function
+  scroll.addEventListener("mousedown", (e) => {
+    e.preventDefault();
+    isDown = true;
+    scroll.classList.add("active");
+    scrollX = e.pageX - scroll.offsetLeft;
+    scrollLeft = scroll.scrollLeft;
+  });
+
+  // Mouse Move Function
+  scroll.addEventListener("mousemove", (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    var element = e.pageX - scroll.offsetLeft;
+    var scrolling = (element - scrollX) * 2;
+    scroll.scrollLeft = scrollLeft - scrolling;
+  });
+  </script>  
+
+  <script>
+  
+  
+// function([string1, string2],target id,[color1,color2])    
+ consoleText(['VIP NUMBER', 'Golden Number', 'Select Number.'], 'text',['black','black','black']);
+
+function consoleText(words, id, colors) {
+  if (colors === undefined) colors = ['#fff'];
+  var visible = true;
+  var con = document.getElementById('console');
+  var letterCount = 1;
+  var x = 1;
+  var waiting = false;
+  var target = document.getElementById(id)
+  target.setAttribute('style', 'color:' + colors[0])
+  window.setInterval(function() {
+
+    if (letterCount === 0 && waiting === false) {
+      waiting = true;
+      target.innerHTML = words[0].substring(0, letterCount)
+      window.setTimeout(function() {
+        var usedColor = colors.shift();
+        colors.push(usedColor);
+        var usedWord = words.shift();
+        words.push(usedWord);
+        x = 1;
+        target.setAttribute('style', 'color:' + colors[0])
+        letterCount += x;
+        waiting = false;
+      }, 2000)
+    } else if (letterCount === words[0].length + 1 && waiting === false) {
+      waiting = true;
+      window.setTimeout(function() {
+        x = -1;
+        letterCount += x;
+        waiting = false;
+      }, 2000)
+    } else if (waiting === false) {
+      target.innerHTML = words[0].substring(0, letterCount)
+      letterCount += x;
+    }
+  }, 120)
+  window.setInterval(function() {
+    if (visible === true) {
+      con.className = 'console-underscore hidden'
+      visible = false;
+
+    } else {
+      con.className = 'console-underscore'
+
+      visible = true;
+    }
+  }, 400)
+}
+  </script>
+</body>
+
+</html>
