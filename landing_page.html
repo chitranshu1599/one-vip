@@ -13,9 +13,9 @@
 <body>
   <div class="container fixed-top">
     <div class="navbar-section pt-4">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark topbar">
+      <nav class="navbar navbar-expand-lg navbar-dark topbar">
         <div class="container-fluid px-4">
-          <a class="navbar-brand" href="#"><img src="/assets//img/logo.svg" alt="logo"></a>
+          <a class="navbar-brand" href="#"><img class="navlogo" src="/assets//img/logo.svg" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -36,13 +36,92 @@
                 <a class="nav-link nav-heading" href="#">Contact Us/Support</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-heading" href="#"><img src="/assets/img/search.svg" alt="search"></a>
+                <a class="nav-link nav-heading" href="#"><img class="topnav-logo" src="/assets/img/search.svg" alt="search"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-heading" href="#"><img src="/assets/img/cart.svg" alt="cart"></a>
+                <a class="nav-link nav-heading" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" ><img class="topnav-logo" src="/assets/img/cart.svg" alt="cart"></a>
+                <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header"></div>
+                  <div class="offcanvas-body">
+                    <div class="container">
+                      <div class="cart-top">
+                        <div class="left-cart-top">
+                          <h3 class="cart-head">Cart</h3>
+                          <img class="cart-logo" src="/assets/img/cart-logo.svg" alt="cart-logo">
+                        </div>
+                        <div class="right-cart-top">
+                          <img class="close-cart" src="/assets/img/cart-close.svg" alt="cart-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                        </div>
+                      </div>
+                      <hr class="hr-bottom">
+                      <div class="cart-middle">
+                        <div class="left-cart-middle">
+                          <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                          <p class="left-middle-text">88-9596-5632</p>
+                        </div>
+                        <div class="right-cart-middle">
+                          <p class="right-middle-text">₹ 2900</p>
+                          <img class="category-close" src="/assets/img/close.svg" alt="close">
+                        </div>
+                      </div>
+                      <div class="cart-middle">
+                        <div class="left-cart-middle">
+                          <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                          <p class="left-middle-text">88-9596-5632</p>
+                        </div>
+                        <div class="right-cart-middle">
+                          <p class="right-middle-text">₹ 2900</p>
+                          <img class="category-close" src="/assets/img/close.svg" alt="close">
+                        </div>
+                      </div>
+                      <div class="cart-middle">
+                        <div class="left-cart-middle">
+                          <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                          <p class="left-middle-text">88-9596-5632</p>
+                        </div>
+                        <div class="right-cart-middle">
+                          <p class="right-middle-text">₹ 2900</p>
+                          <img class="category-close" src="/assets/img/close.svg" alt="close">
+                        </div>
+                      </div>
+                      <div class="cart-middle">
+                        <div class="left-cart-middle">
+                          <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                          <p class="left-middle-text">88-9596-5632</p>
+                        </div>
+                        <div class="right-cart-middle">
+                          <p class="right-middle-text">₹ 2900</p>
+                          <img class="category-close" src="/assets/img/close.svg" alt="close">
+                        </div>
+                      </div>
+                      <hr class="hr-bottom">
+                      <div class="cart-bottom">
+                        <p class="bottom-text">Shipping</p>
+                        <p class="bottom-text">Calculated a Checkout</p>
+                      </div>
+                      <div class="cart-bottom">
+                        <h3 class="subtotal">Subtotal</h3>
+                        <h3 class="price">₹ 45062</h3>
+                      </div>
+                      <div class="checkout-btn mt-5 mb-3">
+                        <button type="button" class="btn check-btn">Proceed to Checkout</button>
+                      </div>
+                      <div class="proceed-btn">
+                        <button type="button" class="btn pro-btn">or Continue Shopping</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link nav-heading" href="#"><img src="/assets/img/profile.svg" alt="profile"></a>
+              <li class="nav-item dropdown1">
+                <div class="dropdown">
+                  <a class="nav-link nav-heading dropdown-toggle" href="#" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" ><img class="topnav-logo" src="/assets/img/profile.svg" alt="profile"></a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Login</a></li>
+                    <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                    <li><a class="dropdown-item" href="#">Reseller</a></li>
+                  </ul>
+                </div>
               </li>
             </ul>
           </div>
@@ -877,16 +956,6 @@
             <button class="btn rounded-pill search-btn" type="submit">Search</button>
           </form>
           <div class="content-details">
-            <div class="product-details">
-              <h3 class="heading">Product</h3>
-              <ul class="p-0">
-                <li class="list-head">Features</li>
-                <li class="list-head">Pricing</li>
-                <li class="list-head">Case studies</li>
-                <li class="list-head">Reviews</li>
-                <li class="list-head">Updates</li>
-              </ul>
-            </div>
             <div class="company-details">
               <h3 class="heading">Company</h3>
               <ul class="p-0">
@@ -1040,6 +1109,7 @@ function consoleText(words, id, colors) {
   }, 400)
 }
   </script>
+  
 </body>
 
 </html>

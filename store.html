@@ -31,7 +31,7 @@ display: block;
         <div class="navbar-section pt-4">
           <nav class="navbar navbar-expand-lg navbar-dark topbar">
             <div class="container-fluid px-4">
-              <a class="navbar-brand" href="#"><img src="/assets//img/logo.svg" alt="logo"></a>
+              <a class="navbar-brand" href="#"><img class="navlogo" src="/assets//img/logo.svg" alt="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -52,21 +52,100 @@ display: block;
                     <a class="nav-link nav-heading" href="#">Contact Us/Support</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-heading" href="#"><img src="/assets/img/search.svg" alt="search"></a>
+                    <a class="nav-link nav-heading" href="#"><img class="topnav-logo" src="/assets/img/search.svg" alt="search"></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-heading" href="#"><img src="/assets/img/cart.svg" alt="cart"></a>
+                    <a class="nav-link nav-heading" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" ><img class="topnav-logo" src="/assets/img/cart.svg" alt="cart"></a>
+                    <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                      <div class="offcanvas-header"></div>
+                      <div class="offcanvas-body">
+                        <div class="container">
+                          <div class="cart-top">
+                            <div class="left-cart-top">
+                              <h3 class="cart-head">Cart</h3>
+                              <img class="cart-logo" src="/assets/img/cart-logo.svg" alt="cart-logo">
+                            </div>
+                            <div class="right-cart-top">
+                              <img class="close-cart" src="/assets/img/cart-close.svg" alt="cart-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                            </div>
+                          </div>
+                          <hr class="hr-bottom">
+                          <div class="cart-middle">
+                            <div class="left-cart-middle">
+                              <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                              <p class="left-middle-text">88-9596-5632</p>
+                            </div>
+                            <div class="right-cart-middle">
+                              <p class="right-middle-text">₹ 2900</p>
+                              <img class="category-close" src="/assets/img/close.svg" alt="close">
+                            </div>
+                          </div>
+                          <div class="cart-middle">
+                            <div class="left-cart-middle">
+                              <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                              <p class="left-middle-text">88-9596-5632</p>
+                            </div>
+                            <div class="right-cart-middle">
+                              <p class="right-middle-text">₹ 2900</p>
+                              <img class="category-close" src="/assets/img/close.svg" alt="close">
+                            </div>
+                          </div>
+                          <div class="cart-middle">
+                            <div class="left-cart-middle">
+                              <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                              <p class="left-middle-text">88-9596-5632</p>
+                            </div>
+                            <div class="right-cart-middle">
+                              <p class="right-middle-text">₹ 2900</p>
+                              <img class="category-close" src="/assets/img/close.svg" alt="close">
+                            </div>
+                          </div>
+                          <div class="cart-middle">
+                            <div class="left-cart-middle">
+                              <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                              <p class="left-middle-text">88-9596-5632</p>
+                            </div>
+                            <div class="right-cart-middle">
+                              <p class="right-middle-text">₹ 2900</p>
+                              <img class="category-close" src="/assets/img/close.svg" alt="close">
+                            </div>
+                          </div>
+                          <hr class="hr-bottom">
+                          <div class="cart-bottom">
+                            <p class="bottom-text">Shipping</p>
+                            <p class="bottom-text">Calculated a Checkout</p>
+                          </div>
+                          <div class="cart-bottom">
+                            <h3 class="subtotal">Subtotal</h3>
+                            <h3 class="price">₹ 45062</h3>
+                          </div>
+                          <div class="checkout-btn mt-5 mb-3">
+                            <button type="button" class="btn check-btn">Proceed to Checkout</button>
+                          </div>
+                          <div class="proceed-btn">
+                            <button type="button" class="btn pro-btn">or Continue Shopping</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link nav-heading" href="#"><img src="/assets/img/profile.svg" alt="profile"></a>
+                  <li class="nav-item dropdown1">
+                    <div class="dropdown">
+                      <a class="nav-link nav-heading dropdown-toggle" href="#" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" ><img class="topnav-logo" src="/assets/img/profile.svg" alt="profile"></a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Login</a></li>
+                        <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                        <li><a class="dropdown-item" href="#">Reseller</a></li>
+                      </ul>
+                    </div>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
         </div>
-        <div class="navbar-section pt-4">
-            <nav class="navbar navbar-expand-lg navbar-dark topbar">
+        <div class="navbar-section pt-2">
+            <nav class="navbar navbar-expand-lg navbar-dark topbar1">
               <div class="container-fluid px-4">
                 <div class="store-navbar">
                     <div class="sum-button">
@@ -89,55 +168,627 @@ display: block;
                     </div>
                     <div class="category-button">
                       <div class="input-group">
-                        <button class="btn btn-category dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown <img src="/assets/img/bottom-arrow.svg" alt="bottom-arrow"></button>
+                        <button class="btn btn-category dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Category<img class="category-img" src="/assets/img/bottom-arrow.svg" alt="bottom-arrow"></button>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action <img src="/assets/img/bottom-arrow.svg" alt="bottom-arrow"></a>
+                          <li><a class="dropdown-item" href="#">786<img class="dropdown-img" src="/assets/img/right-arrow.png" alt="right-arrow"></a>
                             <ul class="dropdown-menu dropdown-submenu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              <li><a class="dropdown-item" href="#">786</a></li>
                               <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Separated link</a></li>
+                              <li><a class="dropdown-item" href="#">Zeros</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Tetra</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Penta</a></li>
                             </ul>
                           </li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                          <li><a class="dropdown-item" href="#">Zeros<img class="dropdown-img" src="/assets/img/right-arrow.png" alt="right-arrow"></a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                              <li><a class="dropdown-item" href="#">786</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Zeros</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Tetra</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Penta</a></li>
+                            </ul>
+                          </li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Tetra<img class="dropdown-img" src="/assets/img/right-arrow.png" alt="right-arrow"></a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                              <li><a class="dropdown-item" href="#">786</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Zeros</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Tetra</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Penta</a></li>
+                            </ul>
+                          </li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Penta<img class="dropdown-img" src="/assets/img/right-arrow.png" alt="right-arrow"></a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                              <li><a class="dropdown-item" href="#">786</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Zeros</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Tetra</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Penta</a></li>
+                            </ul>
+                          </li>
                         </ul>
                       </div>
                     </div>
-                    <div></div>
-                    <div></div>
+                    <div class="price-button">
+                      <p class="price-text">Price</p>
+                      <div class="range-bar">
+                        <input type="range" class="form-range" id="customRange1">
+                        <div class="lower-range">
+                          <p class="range-text">0</p>
+                          <p class="range-text">5000000</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filter-button">
+                      <div class="input-group">
+                        <button class="btn btn-category dropdown-toggle z-index-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">Filter By<img class="category-img" src="/assets/img/bottom-arrow.svg" alt="bottom-arrow"></button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">&lt; 5000 (Less than)</a></li>
+                          <li><a class="dropdown-item" href="#">5000~50000</a></li>
+                          <li><a class="dropdown-item" href="#">&gt; 50000 (More than)</a></li>
+                          <li><a class="dropdown-item" href="#">Price Low to High</a></li>
+                          <li><a class="dropdown-item" href="#">Price High to Low</a></li>
+                        </ul>
+                      </div>
+                    </div>
                 </div>
               </div>
             </nav>
         </div>
-        
+        <div class="navbar-section pt-2">
+          <nav class="navbar navbar-expand-lg navbar-dark topbar2">
+            <div class="container-fluid px-4">
+              <div class="filter-navbar">
+                <div class="filter-section">
+                  <div class="filter-category">
+                    <h3 class="filter-text">Sum: 5, 6, 1</h3>
+                    <img class="category-close" src="/assets/img/close.svg" alt="close">
+                  </div>
+                  <div class="filter-category">
+                    <h3 class="filter-text">Sum: 5, 6, 1</h3>
+                    <img class="category-close" src="/assets/img/close.svg" alt="close">
+                  </div>
+                  <div class="filter-category">
+                    <h3 class="filter-text">Sum: 5, 6, 1</h3>
+                    <img class="category-close" src="/assets/img/close.svg" alt="close">
+                  </div>
+                </div>
+                <div class="close-button">
+                  <img class="filter-close" src="/assets/img/close.svg" alt="close">
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
     </div>
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="footer-section" style="margin-top: 600px;">
+    <div class="container store-margin-top">
+      <div class="store-promo">
+        <img class="promo-banner" src="/assets/img/promo-banner.svg" alt="promo">
+      </div>
+      <div class="featured-vip-section">
+        <div class="featured-card-content">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card2">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card2">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card1">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 mb-4">
+              <div class="card card2">
+                <div class="card-body p-0">
+                  <div class="top-head">
+                    <h3 class="heading m-0">88-777-07-887</h3>
+                  </div>
+                  <div class="middle-head">
+                    <p class="para m-0">Total - 67</p>
+                    <p class="para m-0">| Sum - 4 |</p>
+                    <p class="para1 m-0">R2P</p>
+                  </div>
+                  <div class="bottom-head">
+                    <h6 class="left m-0">Similar Number</h6>
+                    <h4 class="right m-0">₹ 3,615</h4>
+                  </div>
+                  <div class="add-to-cart-btn">
+                    <button type="button" class="btn cart-btn p-1"><img class="me-2" src="/assets/img/cart-btn.svg" alt="cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="view-more">View More.....</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section">
         <div class="container">
           <div class="footer-content">
             <div class="left-footer">
@@ -223,5 +874,7 @@ display: block;
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
+    
 </body>
 </html>
