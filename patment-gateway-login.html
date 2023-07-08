@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style/style.css">
+  <title>Payment Gateway</title>
+</head>
+
+<body>
+
+    <div class="container fixed-top">
+        <div class="navbar-section pt-4">
+          <nav class="navbar navbar-expand-lg navbar-dark topbar">
+            <div class="container-fluid px-4">
+              <a class="navbar-brand" href="#"><img class="navlogo" src="/assets//img/logo.svg" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link nav-heading active" aria-current="page" href="landing_page.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-heading" href="store.html">Store</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-heading" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-heading" href="#">Contact Us/Support</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-heading" href="#" id="advance-tab" data-bs-toggle="modal" data-bs-target="#advance" type="button" role="tab" aria-controls="advance"
+                    aria-selected="true"><img class="topnav-logo" src="/assets/img/search.svg" alt="search"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-heading" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" ><img class="topnav-logo" src="/assets/img/cart.svg" alt="cart"></a>
+                    <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                      <div class="offcanvas-header"></div>
+                      <div class="offcanvas-body">
+                        <div class="container">
+                          <div class="cart-top">
+                            <div class="left-cart-top">
+                              <h3 class="cart-head">Cart</h3>
+                              <img class="cart-logo" src="/assets/img/cart-logo.svg" alt="cart-logo">
+                            </div>
+                            <div class="right-cart-top">
+                              <img class="close-cart" src="/assets/img/cart-close.svg" alt="cart-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                            </div>
+                          </div>
+                          <hr class="hr-bottom">
+                          <div class="cart-middle">
+                            <div class="left-cart-middle">
+                              <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                              <p class="left-middle-text">88-9596-5632</p>
+                            </div>
+                            <div class="right-cart-middle">
+                              <p class="right-middle-text">₹ 2900</p>
+                              <img class="category-close" src="/assets/img/close.svg" alt="close">
+                            </div>
+                          </div>
+                          <div class="cart-middle">
+                            <div class="left-cart-middle">
+                              <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                              <p class="left-middle-text">88-9596-5632</p>
+                            </div>
+                            <div class="right-cart-middle">
+                              <p class="right-middle-text">₹ 2900</p>
+                              <img class="category-close" src="/assets/img/close.svg" alt="close">
+                            </div>
+                          </div>
+                          <div class="cart-middle">
+                            <div class="left-cart-middle">
+                              <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                              <p class="left-middle-text">88-9596-5632</p>
+                            </div>
+                            <div class="right-cart-middle">
+                              <p class="right-middle-text">₹ 2900</p>
+                              <img class="category-close" src="/assets/img/close.svg" alt="close">
+                            </div>
+                          </div>
+                          <div class="cart-middle">
+                            <div class="left-cart-middle">
+                              <img class="sim-logo" src="/assets/img/sim-logo.svg" alt="sim-logo">
+                              <p class="left-middle-text">88-9596-5632</p>
+                            </div>
+                            <div class="right-cart-middle">
+                              <p class="right-middle-text">₹ 2900</p>
+                              <img class="category-close" src="/assets/img/close.svg" alt="close">
+                            </div>
+                          </div>
+                          <hr class="hr-bottom">
+                          <div class="cart-bottom">
+                            <p class="bottom-text">Shipping</p>
+                            <p class="bottom-text">Calculated a Checkout</p>
+                          </div>
+                          <div class="cart-bottom">
+                            <h3 class="subtotal">Subtotal</h3>
+                            <h3 class="price">₹ 45062</h3>
+                          </div>
+                          <div class="checkout-btn mt-5 mb-3">
+                            <button type="button" class="btn check-btn">Proceed to Checkout</button>
+                          </div>
+                          <div class="proceed-btn">
+                            <button type="button" class="btn pro-btn">or Continue Shopping</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown1">
+                    <div class="dropdown">
+                      <a class="nav-link nav-heading dropdown-toggle" href="#" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" ><img class="topnav-logo" src="/assets/img/profile.svg" alt="profile"></a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Login</a></li>
+                        <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                        <li><a class="dropdown-item" href="#">Reseller</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </div>  
+    <div class="container">
+        <div class="payment-login login-margin">
+            <form class="login">
+                <h1 class="login-head">Login/ <span class="create-account">Create Account</span> to Proceed</h1>
+                <div class="login-form">
+                    <div class="email me-4">
+                        <label for="email" class="form-label email-id">Enter email ID</label>
+                        <input type="text" class="form-control" id="email" value="Email ID" required>
+                      </div>
+                      <div class="password me-4">
+                        <label for="password" class="form-label pass">Password</label>
+                        <input type="text" class="form-control" id="password" value="Password" required>
+                      </div>
+                      <div class="submit-btn">
+                        <button class="btn login-btn" type="submit">Login</button>
+                      </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer-section">
+        <div class="container">
+          <div class="footer-content">
+            <div class="left-footer">
+              <img class="company-logo" src="/assets/img/logo.svg" alt="logo">
+              <p class="desc-para">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquamLorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p>
+              <div class="socialmedia-icon">
+                <img class="me-3" src="/assets/img/Facebook.svg" alt="fb">
+                <img class="me-3" src="/assets/img/Twitter.svg" alt="tweet">
+                <img class="me-3" src="/assets/img/Instagram.svg" alt="insta">
+                <img class="me-3" src="/assets/img/LinkedIn.svg" alt="in">
+                <img class="me-3" src="/assets/img/YouTube.svg" alt="yt">
+              </div>
+            </div>
+            <div class="center-footer">
+              <form class="d-flex justify-content-center">
+                <input class="form-control me-2 px-4 rounded-pill search-input-btn" type="search" placeholder="Eg. 91 63 422254666" aria-label="Search">
+                <button class="btn rounded-pill search-btn" type="submit">Search</button>
+              </form>
+              <div class="content-details">
+                <div class="company-details">
+                  <h3 class="heading">Company</h3>
+                  <ul class="p-0">
+                    <li class="list-head">About</li>
+                    <li class="list-head">Contact us</li>
+                    <li class="list-head">Careers</li>
+                    <li class="list-head">Culture</li>
+                    <li class="list-head">Blog</li>
+                  </ul>
+                </div>
+                <div class="category-details">
+                  <h3 class="heading">Category</h3>
+                  <ul class="p-0">
+                    <li class="list-head">Penta</li>
+                    <li class="list-head">Tetra</li>
+                    <li class="list-head">786</li>
+                    <li class="list-head">Penta</li>
+                    <li class="list-head">Zeros</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="right-footer">
+              <div>
+                <button class="btn rounded-pill search-btn" type="submit">Invite and Earn <img class="invite-people" src="/assets/img/invite-earn.svg" alt="people"></button>
+              </div>
+              <div class="contact-content-details">
+                <div class="contact-us-details">
+                  <h3 class="heading">Contacts us</h3>
+                  <div class="contact-category">
+                    <a class="contact-part" href="#email"><img class="me-2" src="/assets/img/Email.svg" alt="email">contact@company.com</a>
+                    <a class="contact-part" href="#phone"><img class="me-2" src="/assets/img/Phone.svg" alt="phone">(414) 687 - 5892</a>
+                    <a class="contact-part lh-1" href="#address"><img class="me-2" src="/assets/img/location.svg" alt="add">794 Mcallister <br>St. San Francisco, 94102</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="scroll-top-btn">
+            <img src="/assets/img/scroll-top.svg" alt="scroll-top">
+          </div>
+          <hr class="hr-bottom">
+          <div class="copyright-section">
+            <div class="left">
+              <p class="left-text">Copyright © 2022 BRIX Templates</p>
+            </div>
+            <div class="right">
+              <span class="right-text">All Rights Reserved | <a class="text-white" href="t-and-c">Terms and Conditions <span class="mx-1">|</span> Privacy Policy</a></span>
+            </div>
+          </div>
+        </div>
+    </div>  
+     
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+  
+</body>
+
+</html>

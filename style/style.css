@@ -48,7 +48,7 @@ html,body{
 }
 
 .dropdown-toggle::after {
-    display: none !important;
+    display: none;
 }
 
 
@@ -224,8 +224,8 @@ html,body{
 
 .vipnumber-section #circle .image{ 
   position: absolute;
-  top: 300px;
-  right: 292px;
+  top: 250px;
+  right: 347px;
   width: 14%;
 }
 
@@ -277,7 +277,7 @@ html,body{
 
 .vipnumber-section .left-part .head{
     font-family: Helvetica;
-    font-size: 80px;
+    font-size: 63px;
     font-weight: 500;
     letter-spacing: 0em;
     text-align: left;
@@ -344,7 +344,7 @@ html,body{
     padding-right: 30px;
 }
 
-.vipnumber-section .modal-box1{
+.modal-box1{
     background-color: #00A1BA;
     padding: 15px;
 }
@@ -380,7 +380,8 @@ html,body{
     border-top-right-radius: 0.8rem;
 }
 
-.search-number-tab .search-content{
+
+.search-content{
     background-color: #fff;
     padding: 20px;
 }
@@ -446,7 +447,7 @@ html,body{
 }
 
 .margin-topbar{
-    margin-top: 130px;
+    margin-top: 80px;
 }
 
 hr.hr-line1{
@@ -492,6 +493,7 @@ hr.hr-bottom{
     width: 12rem;
     margin-bottom: 25px;
 }
+
 .payamount .favorite-icon{
     width: 5rem;
     position: relative;
@@ -561,6 +563,16 @@ hr.hr-bottom{
 
 .exclusive-content .margin-right{
     margin-right: 40px;
+}
+
+.read-more{
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #00A1BA;
+    margin-bottom: 0px;
 }
 
 /* Featured VIP section */
@@ -672,7 +684,7 @@ hr.hr-bottom{
     width: 20px;
 }
 
-.featured-card-content .view-more{
+.view-more{
     font-family: Helvetica;
     font-size: 25px;
     font-weight: 500;
@@ -687,7 +699,7 @@ hr.hr-bottom{
 
 .multiple-options-section .multiple-options{
     background: #FFA800;
-    padding: 20px 60px;
+    padding: 5px 37px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -695,35 +707,35 @@ hr.hr-bottom{
 }
 
 .multiple-options .img-category1{
-    width: 30%;
+    width: 25%;
     margin-left: 75px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 
 }
 .multiple-options .img-category2{
-    width: 23%;
+    width: 18%;
     margin-left: 130px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 
 }
 .multiple-options .img-category3{
-    width: 30%;
+    width: 25%;
     margin-left: 100px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 
 }
 .multiple-options .img-category4{
-    width: 33%;
+    width: 28%;
     margin-left: 90px;
-    margin-bottom: 35px;
+    margin-bottom: 5px;
 
 }
 
 .multiple-options .heading{
     font-family: Helvetica;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 41px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
     color: #ffffff;
@@ -805,6 +817,22 @@ hr.hr-bottom{
 
 		}
 	}
+}
+
+
+.scroll-top-btn{
+    background: #FFA800;
+    width: 56px;
+    padding: 15px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.scroll-top-btn img{
+    width: 26px;
 }
 
 /* Footer section */
@@ -962,7 +990,7 @@ hr.hr-bottom{
 /* Stor Navbar */
 
 .store-margin-top{
-    margin-top: 300px;
+    margin-top: 260px;
 }
 
 .store-promo .promo-banner{
@@ -1006,15 +1034,25 @@ hr.hr-bottom{
     border-radius: 20px !important;
 }
 
-.sum-button input,
-input::placeholder {
+.sum-button input::placeholder {
     font-family: Helvetica;
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    color: #4E4E4E !important;
+    color: #4E4E4E;
+
+}
+
+.advance-search input::placeholder {
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B0B0B0;
 
 }
 
@@ -1185,21 +1223,251 @@ input::placeholder {
     width: 25px;
 }
 
+/* Payment Gateway login */
 
+.login-margin{
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
 
+.payment-login .login-form{
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
 
+.payment-login .login-head{
+    font-family: Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
 
+.payment-login .create-account{
+    color: #00A1BA;
+}
 
+.submit-btn .login-btn{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00A1BA;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #00A1BA;
+    border-radius: 20px;
+}
 
+.login-form .email .email-id{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 
+.login-form .password .pass{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
 
+}
 
+.payment-login .login-form .form-control {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 10px;
+}
 
+/* Order Details */
 
+.order-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.order .order-heading{
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
 
+.order .order-confirm{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 12px;
+}
 
+.order .order-para{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
 
+.order .order-details{
+    background: #00A1BA;
+    padding: 20px 10px;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.order-details .order-details-heading{
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.order-details .order-name{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.order-details .order-value{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.order .download-button .download-btn{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #FFA800;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.go-to-order .go-my-order{
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00A1BA;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* UPC Code */
+
+.upc-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upc .upc-heading{
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.upc .upc-confirm{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.upc .upc-para{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.upc-left .upc-details{
+    margin: 25px 0px;
+}
+
+.upc-details .upc-name{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.upc-details .upc-value{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.upc-button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.upc-button .upc-btn{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00A1BA;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
 
 
 

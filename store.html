@@ -8,24 +8,7 @@
     <link rel="stylesheet" href="/style/style.css">
     <title>Store-Page</title>
 </head>
-<style>
-  .dropdown-menu li {
-position: relative;
-}
-.dropdown-menu .dropdown-submenu {
-display: none;
-position: absolute;
-left: 100%;
-top: -7px;
-}
-.dropdown-menu .dropdown-submenu-left {
-right: 100%;
-left: auto;
-}
-.dropdown-menu > li:hover > .dropdown-submenu {
-display: block;
-}
-</style>
+
 <body>
     <div class="container fixed-top">
         <div class="navbar-section pt-4">
@@ -232,7 +215,7 @@ display: block;
                     </div>
                     <div class="filter-button">
                       <div class="input-group">
-                        <button class="btn btn-category dropdown-toggle z-index-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">Filter By<img class="category-img" src="/assets/img/bottom-arrow.svg" alt="bottom-arrow"></button>
+                        <button class="btn btn-category dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Filter By<img class="category-img" src="/assets/img/bottom-arrow.svg" alt="bottom-arrow"></button>
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="#">&lt; 5000 (Less than)</a></li>
                           <li><a class="dropdown-item" href="#">5000~50000</a></li>
@@ -855,6 +838,9 @@ display: block;
                 </div>
               </div>
             </div>
+          </div>
+          <div class="scroll-top-btn">
+            <img src="/assets/img/scroll-top.svg" alt="scroll-top">
           </div>
           <hr class="hr-bottom">
           <div class="copyright-section">
