@@ -18,6 +18,11 @@ html,body{
     background-color: #000000;
 }
 
+.navbar-section .topbar3 {
+    border-radius: 12px;
+    background-color: #000000;
+}
+
 .navlogo{
     width: 70%;
 }
@@ -1227,7 +1232,7 @@ hr.hr-bottom{
 
 .login-margin{
     margin-top: 150px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .payment-login .login-form{
@@ -1262,6 +1267,11 @@ hr.hr-bottom{
     padding-right: 30px;
     border-color: #00A1BA;
     border-radius: 20px;
+}
+
+.submit-btn .login-btn:hover{
+    background-color: #FFA800;
+    border-color: #FFA800;
 }
 
 .login-form .email .email-id{
@@ -1379,6 +1389,10 @@ hr.hr-bottom{
     margin-top: 30px;
 }
 
+.order .download-button .download-btn:hover{
+    background-color: #00A1BA;
+}
+
 .go-to-order .go-my-order{
     font-family: Helvetica;
     font-size: 17px;
@@ -1428,7 +1442,7 @@ hr.hr-bottom{
 }
 
 .upc-left .upc-details{
-    margin: 25px 0px;
+    margin-top: 25px;
 }
 
 .upc-details .upc-name{
@@ -1468,6 +1482,258 @@ hr.hr-bottom{
     border-radius: 20px;
     margin-top: 30px;
 }
+
+.upc-button .upc-btn:hover{
+    background-color: #FFA800;
+}
+
+/* Payment failure */
+
+.payment-failure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-failure .retry-payment{
+    display: flex;
+    align-items: baseline;
+}
+
+.payment-failure .left-retry-head{
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.payment-failure .retry-para{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.retry-button .retry-btn{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00A1BA;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.retry-button .retry-btn:hover{
+    background-color:#FFA800;
+}
+
+.payment-failure .contact-us{
+    color: #00A1BA;
+}
+
+/* Page not found */
+
+.pnf-margin{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.page-not-found .page-not-found-img{
+    margin-left: 30%;
+}
+
+.page-not-found .pnf-para{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 30px;
+}
+
+/* Sign up page */
+
+.signup-margin{
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+.sign-up-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-page .left-signup{
+    width: 35rem;
+}
+
+.sign-up-page .create-account{
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sign-up-page .signup-btn{
+    font-family: Helvetica;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00A1BA;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.sign-up-page .signup-btn:hover{
+    background-color:#FFA800;
+}
+
+.sign-up-page .form-label {
+    margin-bottom: 0.5rem;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sign-up-page .form-control{
+    border-radius: 12px !important;
+}
+
+.sign-up-page .form-check-input:checked {
+    background-color: #FBAF02;
+    border-color: #FBAF02;
+}
+
+.sign-up-page .referral-para{
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sign-up-page .sign-in{
+    margin-left: 5px;
+    color: #00A1BA;
+    text-decoration: none;
+}
+
+.sign-up-page .otp-message{
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.otp-verify .ap-otp-input{
+    border: thin black solid;
+    border-radius: 10px;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+    margin-right: 30px;
+}
+
+
+.otp-verify .ap-otp-input:focus{
+    outline: none !important;
+    border: 3px solid #1f6feb;
+    transition: 0.12s ease-in;
+}
+
+
+/* My Profile */
+
+.my-profile-nav .profile-top-img1{
+    margin-right: 262px;
+}
+
+.profile-margin{
+    margin-top: 210px;
+    margin-bottom: 20px;
+}
+
+.my-profile-page .profile-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-page .create-account{
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.profile-page .form-label{
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.profile-page .form-control {
+    border: none !important;
+    border-bottom: dotted #00A1BA !important;
+}
+
+.profile-page .update-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.profile-page .update-btn{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00A1BA;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.profile-page .update-btn:hover{
+    background-color: #FBAF02;
+}
+
+
+
 
 
 

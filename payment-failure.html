@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="/style/style.css">
-  <title>Payment Gateway</title>
+  <title>Payment Failure</title>
 </head>
 
 <body>
@@ -132,23 +132,20 @@
         </div>
     </div>  
     <div class="container">
-        <div class="payment-login login-margin">
-            <form class="login">
-                <h1 class="login-head">Login/ <span class="create-account">Create Account</span> to Proceed</h1>
-                <div class="login-form">
-                    <div class="email me-4">
-                        <label for="email" class="form-label email-id">Enter email ID</label>
-                        <input type="text" class="form-control" id="email" value="Email ID" required>
-                      </div>
-                      <div class="password me-4">
-                        <label for="password" class="form-label pass">Password</label>
-                        <input type="text" class="form-control" id="password" value="Password" required>
-                      </div>
-                      <div class="submit-btn">
-                        <button class="btn login-btn" type="submit">Login</button>
-                      </div>
+        <div class="payment-failure mt-5">
+            <div class="left-retry">
+                <h1 class="left-retry-head">Oh No! :( Your payment has failed</h1>
+                <div class="retry-payment">
+                    <p class="retry-para">Retry payment to confirm your order</p>
+                    <div class="retry-button">
+                        <button class="btn retry-btn" type="submit">Print</button>
+                    </div>
                 </div>
-            </form>
+                <p class="retry-para">Have Questions? <span class="contact-us">Contact Us</span></p>
+            </div>
+            <div class="right-retry">
+                <img class="failure-img" src="/assets/gif/payment-failure.gif" alt="failure">
+            </div>
         </div>
     </div>
 

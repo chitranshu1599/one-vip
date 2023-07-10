@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="/style/style.css">
-  <title>Payment Gateway</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <title>My Profile</title>
 </head>
 
 <body>
-
     <div class="container fixed-top">
         <div class="navbar-section pt-4">
           <nav class="navbar navbar-expand-lg navbar-dark topbar">
@@ -37,8 +35,7 @@
                     <a class="nav-link nav-heading" href="#">Contact Us/Support</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-heading" href="#" id="advance-tab" data-bs-toggle="modal" data-bs-target="#advance" type="button" role="tab" aria-controls="advance"
-                    aria-selected="true"><img class="topnav-logo" src="/assets/img/search.svg" alt="search"></a>
+                    <a class="nav-link nav-heading" href="#"><img class="topnav-logo" src="/assets/img/search.svg" alt="search"></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link nav-heading" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" ><img class="topnav-logo" src="/assets/img/cart.svg" alt="cart"></a>
@@ -130,37 +127,88 @@
             </div>
           </nav>
         </div>
-    </div>  
-    <div class="container">
-        <div class="payment-login login-margin">
-            <form class="login">
-                <h1 class="login-head">Login/ <span class="create-account">Create Account</span> to Proceed</h1>
-                <div class="login-form">
-                    <div class="email me-4">
-                        <label for="email" class="form-label email-id">Enter email ID</label>
-                        <input type="text" class="form-control" id="email" value="Email ID" required>
-                      </div>
-                      <div class="password me-4">
-                        <label for="password" class="form-label pass">Password</label>
-                        <input type="text" class="form-control" id="password" value="Password" required>
-                      </div>
-                      <div class="submit-btn">
-                        <button class="btn login-btn" type="submit">Login</button>
-                      </div>
+        <div class="navbar-section pt-2">
+            <nav class="navbar navbar-expand-lg navbar-dark topbar3">
+              <div class="container-fluid px-4">
+                <div class="my-profile-nav">
+                    <div class="my-profile">
+                        <a href="#"><img class="profile-top-img1" src="/assets/img/my-profile.svg" alt="my-profile"></a>
+                        <a href="#"><img class="profile-top-img1" src="/assets/img/my-order.svg" alt="my-order"></a>
+                        <a href="#"><img class="profile-top-img1" src="/assets/img/refer-and-earn.svg" alt="refer-and-earn"></a>
+                        <a href="#"><img class="profile-top-img1" src="/assets/img/my-refunds.svg" alt="my-refunds"></a>
+                        <a href="#"><img class="profile-top-img" src="/assets/img/logout.svg" alt="logout"></a>
+                    </div>
                 </div>
-            </form>
+              </div>
+            </nav>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
+    <div class="container">
+        <div class="my-profile-page profile-margin">
+            <div class="profile-page">
+                <div class="left-profile w-50">
+                    <form class="sign-up">
+                        <h1 class="create-account">Personal Information</h1>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Simran Sinha">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Simrank29@gmail.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="***************">
+                        </div>
+                        <div class="mb-3">
+                            <label for="number" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="number" placeholder="8818010289">
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Home/ Office Address</label>
+                            <input type="text" class="form-control mb-1" id="name" placeholder="Line 1">
+                            <input type="text" class="form-control mb-3" id="name" placeholder="Line 2">
+                        </div>
+                        <div class="row g-3 align-items-center">
+                            <div class="col-2">
+                              <label for="inputPassword6" class="col-form-label">Pin Code</label>
+                            </div>
+                            <div class="col-4">
+                              <input type="password" id="inputPassword6" class="form-control">
+                            </div>
+                            <div class="col-2">
+                                <label for="inputPassword6" class="col-form-label">City</label>
+                            </div>
+                            <div class="col-4">
+                                <input type="password" id="inputPassword6" class="form-control">
+                            </div>
+                            <div class="col-2">
+                                <label for="inputPassword6" class="col-form-label">State</label>
+                              </div>
+                              <div class="col-4">
+                                <input type="password" id="inputPassword6" class="form-control">
+                              </div>
+                              <div class="col-2">
+                                  <label for="inputPassword6" class="col-form-label">Country</label>
+                              </div>
+                              <div class="col-4">
+                                  <input type="password" id="inputPassword6" class="form-control">
+                              </div>
+                        </div>
+                        <div class="update-button">
+                            <a href="#" class="btn update-btn">Update</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="right-profile">
+                    <img src="/assets/gif/my-profile.gif" alt="my-profile">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
 
 
 
@@ -185,6 +233,16 @@
                 <button class="btn rounded-pill search-btn" type="submit">Search</button>
               </form>
               <div class="content-details">
+                <div class="product-details">
+                  <h3 class="heading">Product</h3>
+                  <ul class="p-0">
+                    <li class="list-head">Features</li>
+                    <li class="list-head">Pricing</li>
+                    <li class="list-head">Case studies</li>
+                    <li class="list-head">Reviews</li>
+                    <li class="list-head">Updates</li>
+                  </ul>
+                </div>
                 <div class="company-details">
                   <h3 class="heading">Company</h3>
                   <ul class="p-0">
@@ -237,15 +295,14 @@
           </div>
         </div>
     </div>  
-     
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
-
-  
+    
 </body>
-
 </html>

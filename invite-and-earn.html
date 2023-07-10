@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="/style/style.css">
-  <title>Payment Gateway</title>
+  <title>Invite & Earn</title>
 </head>
 
 <body>
@@ -132,23 +132,19 @@
         </div>
     </div>  
     <div class="container">
-        <div class="payment-login login-margin">
-            <form class="login">
-                <h1 class="login-head">Login/ <span class="create-account">Create Account</span> to Proceed</h1>
-                <div class="login-form">
-                    <div class="email me-4">
-                        <label for="email" class="form-label email-id">Enter email ID</label>
-                        <input type="text" class="form-control" id="email" value="Email ID" required>
-                      </div>
-                      <div class="password me-4">
-                        <label for="password" class="form-label pass">Password</label>
-                        <input type="text" class="form-control" id="password" value="Password" required>
-                      </div>
-                      <div class="submit-btn">
-                        <button class="btn login-btn" type="submit">Login</button>
-                      </div>
+        <div class="payment-failure login-margin">
+            <div class="left-retry">
+                <h1 class="left-retry-head">Tell your friends about us</h1>
+                <div class="retry-payment">
+                    <p class="retry-para mb-3">Refer us to your friends and earn points, awards and more!</p>
                 </div>
-            </form>
+                <div class="retry-button">
+                    <button class="btn retry-btn" type="submit">Login to Generate Referral Code</button>
+                </div>
+            </div>
+            <div class="right-retry">
+                <img class="failure-img" src="/assets/gif/invite-earn.gif" alt="invite-earn">
+            </div>
         </div>
     </div>
 
