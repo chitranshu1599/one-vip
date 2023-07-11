@@ -299,6 +299,14 @@ html,body{
     transition: none;
 }
 
+.search-number-tab .nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: 0 0;
+    border: 1px solid transparent;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
 /* .search-number-tab .advance{
     font-family: Helvetica;
     font-size: 20px;
@@ -335,6 +343,11 @@ html,body{
     background-color: #00A1BA;
     padding-left: 30px;
     padding-right: 30px;
+    margin-left: 15px;
+}
+
+.search-number-tab .search-btn:hover{
+    background-color: #FFA800;
 }
 
 .search-number-tab .advance-btn{
@@ -1034,9 +1047,12 @@ hr.hr-bottom{
     font-weight: 700;
     line-height: 1.5;
     color: #FFFFFF;
+    text-decoration: none;
     background-color: #00A1BA;
     border: 1px solid #00A1BA;
     border-radius: 20px !important;
+    position: relative;
+    left: 0px;
 }
 
 .sum-button input::placeholder {
@@ -1511,8 +1527,9 @@ hr.hr-bottom{
 
 .payment-failure .retry-para{
     font-family: Helvetica;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
+    font-style: italic;
     line-height: 48px;
     letter-spacing: 0em;
     text-align: left;
@@ -1731,6 +1748,354 @@ hr.hr-bottom{
 .profile-page .update-btn:hover{
     background-color: #FBAF02;
 }
+
+/* My order */
+
+.my-order-page .order-page-heading{
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.my-order-page .top-order-head-filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.my-order-page .order-filter{
+    display: flex;
+    align-items: center;
+}
+
+.order-filter .custom-select {
+    position: relative;
+    font-family: Arial;
+    width: 215px;
+}
+  
+  .order-filter .custom-select select {
+    display: none; 
+}
+  
+.order-filter .select-selected {
+    background-color: #00A1BA;
+}
+  
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 12px;
+    left: 10px;
+    background-image: url("/assets/img/down-arrow.svg");
+    background-position: center;
+    width: 18px;
+    height: 20px;
+}
+  
+.select-selected.select-arrow-active:after {
+    background-image: url("/assets/img/up-arrow.svg");
+    background-position: center;
+    width: 18px;
+    height: 20px;
+    top: 10px;
+}
+  
+
+.order-filter .select-selected {
+    color: #ffffff;
+    padding: 8px 35px;
+    cursor: pointer;
+    user-select: none;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.order-filter .select-items div {
+    color: #ffffff;
+    padding: 8px 10px;
+    cursor: pointer;
+    user-select: none;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 20px;
+}
+  
+.order-filter .select-items {
+    position: absolute;
+    background-color: #00A1BA;
+    top: 100%;
+    left: 28px;
+    right: 0;
+    z-index: 99;
+    border-radius: 0px 0px 15px 15px;
+    width: 150px;
+}
+  
+.order-filter .select-hide {
+    display: none;
+}
+  
+.order-filter .select-items div:hover, .same-as-selected {
+    background-color: #00A1BA;
+}
+
+.select-go{
+    background: #FBAF02;
+    width: 45px;
+    height: 43px;
+    text-align: center;
+    border-radius: 22px;
+    position: relative;
+    right: 40px;
+}
+
+.select-go .go{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.my-order .my-order-head{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.my-order .my-order-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.my-order .order-content-left{
+    display: flex;
+    align-items: flex-start;
+}
+
+.my-order .order-info{
+    font-family: Helvetica;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.order-content-left .left-order-img{
+    margin-right: 20px;
+    width: 75px;
+}
+
+.order-content-right .right-order-img{
+    margin-left: 125px;
+    margin-bottom: 40px;
+}
+
+.order-content-right .info-coin{
+    margin-left: 7px;
+}
+
+.my-order-page .bottom-count{
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #00A1BA;
+}
+
+/* Refer and Earn */
+
+.refer-and-earn-page .refer-and-earn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.refer-and-earn .top-refer{
+    margin-bottom: 40px;
+}
+
+.refer-and-earn .top-coin-head{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.refer-and-earn .collected-coin{
+    width: 22px;
+    margin-left: 8px;
+    position: relative;
+    bottom: 3px;
+}
+
+.refer-and-earn .top-refer-head{
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.refer-and-earn .top-refer-para{
+    font-family: Helvetica;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.middle-refer .email-form{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.email-form .form-label {
+    margin-bottom: 0.5rem;
+    font-family: Helvetica;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.email-form .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 20px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.email-form .email-button{
+    margin-left: 35px;
+}
+
+.email-form .email-btn{
+    background-color: #00A1BA;
+    border-color: #00A1BA;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.email-form .email-btn:hover{
+    background-color: #FBAF02;
+    border-color: #FBAF02;
+}
+
+.refer-and-earn .middle-or{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.refer-and-earn .referral-btn{
+    background-color: #00A1BA;
+    border-color: #00A1BA;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.refer-and-earn .referral-btn:hover{
+    background-color: #FBAF02;
+    border-color: #FBAF02;
+}
+
+.refer-and-earn .referral-para{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.refer-and-earn .copy-logo{
+    vertical-align: bottom;
+    margin-left: 5px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.refer-and-earn .bottom-refer-para{
+    font-family: Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
 
 
 

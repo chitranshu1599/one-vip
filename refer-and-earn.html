@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="/style/style.css">
-  <title>Order Confirmation</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Refer and Earn</title>
 </head>
 
-<body>
 
+<body>
     <div class="container fixed-top">
         <div class="navbar-section pt-4">
           <nav class="navbar navbar-expand-lg navbar-dark topbar">
@@ -37,8 +36,7 @@
                     <a class="nav-link nav-heading" href="#">Contact Us/Support</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-heading" href="#" id="advance-tab" data-bs-toggle="modal" data-bs-target="#advance" type="button" role="tab" aria-controls="advance"
-                    aria-selected="true"><img class="topnav-logo" src="/assets/img/search.svg" alt="search"></a>
+                    <a class="nav-link nav-heading" href="#"><img class="topnav-logo" src="/assets/img/search.svg" alt="search"></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link nav-heading" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" ><img class="topnav-logo" src="/assets/img/cart.svg" alt="cart"></a>
@@ -129,45 +127,61 @@
             </div>
           </nav>
         </div>
-    </div>  
+        <div class="navbar-section pt-2">
+            <nav class="navbar navbar-expand-lg navbar-dark topbar3">
+              <div class="container-fluid px-4">
+                <div class="my-profile-nav">
+                    <div class="my-profile">
+                        <a href="my-profile.html"><img class="profile-top-img1" src="/assets/img/my-profile.svg" alt="my-profile"></a>
+                        <a href="my-orders.html"><img class="profile-top-img1" src="/assets/img/my-order.svg" alt="my-order"></a>
+                        <a href="refer-and-earn.html"><img class="profile-top-img1" src="/assets/img/refer-and-earn.svg" alt="refer-and-earn"></a>
+                        <a href="my-refunds.html"><img class="profile-top-img1" src="/assets/img/my-refunds.svg" alt="my-refunds"></a>
+                        <a href="#"><img class="profile-top-img" src="/assets/img/logout.svg" alt="logout"></a>
+                    </div>
+                </div>
+              </div>
+            </nav>
+        </div>
+    </div>
     <div class="container">
-        <div class="order-section">
-            <div class="order-left">
-                <div class="order login-margin">
-                    <h3 class="order-heading">Congratulations! </h3>
-                    <h5 class="order-confirm">We have received your payment</h5>
-                    <p class="order-para">Please wait for UPC- we will upload your UPC as soon as possible.</p>
-                    <p class="order-para">Kindly note that that UPC provided to you will only be valid for 4 days.</p>
-                    <div class="order-details">
-                        <h1 class="order-details-heading">Order Details</h1>
-                        <h5 class="order-name">Order ID: <span class="order-value">4523856</span></h5>
-                        <h5 class="order-name">Order Date: <span class="order-value">05 June 2023</span></h5>
-                        <h5 class="order-name">Number Booked: <span class="order-value">8989-73-7463</span></h5>
-                        <h5 class="order-name">Payment Status: <span class="order-value">Paid through net banking</span></h5>
+        <div class="my-profile-page profile-margin">
+            <div class="refer-and-earn-page">
+                <div class="refer-and-earn">
+                    <div class="left-refer-earn">
+                        <div class="top-refer">
+                            <h3 class="top-coin-head">Total Coins: 00<span><img class="collected-coin" src="/assets/img/collected-coin.svg" alt="collected-coin"></span></h3>
+                            <h2 class="top-refer-head">Tell your friends about us</h2>
+                            <p class="top-refer-para">Refer us to your friends and earn points, awards and more!</p>
+                        </div>
+                        <div class="middle-refer">
+                            <div>
+                                <form class="email-form">
+                                    <div class="mb-3">
+                                      <label for="email" class="form-label">Enter their email address/Phone number</label>
+                                      <input type="email" class="form-control" id="email" placeholder="Enter Email address/ Phone Number">
+                                    </div>
+                                    <div class="email-button mb-3">
+                                        <a href="#" type="submit" class="btn email-btn">Send Invite</a>
+                                    </div>
+                                  </form>
+                            </div>
+                        </div>
+                        <h4 class="middle-or">Or</h4>
+                        <div class="bottom-refer">
+                            <a href="#" type="submit" class="btn referral-btn">Generate Referral Code</a>
+                            <h6 class="referral-para">Reffereal Code Appears here after clicking on ‘Generate Refferal Code’<span><img class="copy-logo" src="/assets/img/copy-logo.svg" alt="copy-logo"></span></h6>
+                            <p class="bottom-refer-para">Copy and paste the link to share with your friends. Let them know that this referral code can be used during the checkout process.</p>
+                        </div>
                     </div>
-                    <div class="download-button">
-                        <a href="upc-code.html" class="btn download-btn" type="submit">Download Invoice</a>
+                    <div class="right-refer-earn">
+                        <img class="right-refer-img" src="/assets/gif/invite-earn.gif" alt="invite-and-earn">
                     </div>
                 </div>
-                <div class="go-to-order">
-                    <p class="go-my-order">Go to my Orders...</p>
-                </div>
-            </div>
-            <div class="order-right">
-                <img class="order-img" src="/assets/gif/tick-boom-popper.gif" alt="tick-popper">
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
+    
+    
 
 
 
@@ -192,6 +206,16 @@
                 <button class="btn rounded-pill search-btn" type="submit">Search</button>
               </form>
               <div class="content-details">
+                <div class="product-details">
+                  <h3 class="heading">Product</h3>
+                  <ul class="p-0">
+                    <li class="list-head">Features</li>
+                    <li class="list-head">Pricing</li>
+                    <li class="list-head">Case studies</li>
+                    <li class="list-head">Reviews</li>
+                    <li class="list-head">Updates</li>
+                  </ul>
+                </div>
                 <div class="company-details">
                   <h3 class="heading">Company</h3>
                   <ul class="p-0">
@@ -244,15 +268,14 @@
           </div>
         </div>
     </div>  
-     
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
-
-  
+    
 </body>
-
 </html>
