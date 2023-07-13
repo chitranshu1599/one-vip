@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="/style/style.css">
-  <title>Payment Gateway</title>
+  <title>UPC Code</title>
 </head>
 
 <body>
@@ -131,23 +131,35 @@
         </div>
     </div>  
     <div class="container">
-        <div class="payment-login login-margin">
-            <form class="login">
-                <h1 class="login-head">Login/ <span class="create-account">Create Account</span> to Proceed</h1>
-                <div class="login-form">
-                    <div class="email me-4">
-                        <label for="email" class="form-label email-id">Enter email ID</label>
-                        <input type="text" class="form-control" id="email" value="Email ID" required>
-                      </div>
-                      <div class="password me-4">
-                        <label for="password" class="form-label pass">Password</label>
-                        <input type="text" class="form-control" id="password" value="Password" required>
-                      </div>
-                      <div class="submit-btn">
-                        <button class="btn login-btn" type="submit">Login</button>
-                      </div>
+        <div class="order-details-section">
+            <div class="order-details-left">
+                <div class="order-details order-margin">
+                    <h3 class="order-details-heading">Order ID:15632486</h3>
+                    <h5 class="order-details-confirm">We have received your payment</h5>
+                    <div>
+                        <a href="#" class="order-details-para">Please wait for UPC- we will upload your UPC as soon as possible.</a>
+                    </div>
+                    <div>
+                        <a href="#" class="order-details-para">Kindly note that that UPC provided to you will only be valid for 4 days.</a>
+                    </div>
+                    <div class="order-details-details">
+                        <h5 class="order-details-value">Order Date: 05 June 2023</h5>
+                        <h5 class="order-details-value">Number Booked: 8989-73-7463</h5>
+                        <h5 class="order-details-value">Payment Status: Paid through net banking</h5>
+                        <h5 class="order-details-value">UPC Delivery Status: Pending</h5>
+                    </div>
+                    <div class="order-details-button">
+                        <button class="btn order-details-btn me-3" type="submit">Download Invoice</button>
+                        <button class="btn order-details-btn" disabled type="submit">Download/Print UPC</button>
+                    </div>
                 </div>
-            </form>
+            </div>
+            <div class="order-right">
+                <div class="order-upc">
+                    <h3 class="order-upc-text">The UPC for your mobile no. 2558654586 is CJ52641, valid upto 04-06-2023 23:59:59. 
+                        Do not share this UPC with anyone except the recipient operator personnel.</h3>
+                </div>
+            </div>
         </div>
     </div>
 

@@ -4,6 +4,10 @@ html,body{
     box-sizing: border-box;
 }
 
+.fixed-top {
+    background: #ffffff;
+}
+
 .navbar-section .topbar{
     border-radius: 30px;
     background-color: #000000;
@@ -25,7 +29,7 @@ html,body{
 }
 
 .navlogo{
-    width: 70%;
+    width: 75%;
 }
 
 .topnav-logo{
@@ -230,8 +234,8 @@ html,body{
 
 .vipnumber-section #circle .image{ 
   position: absolute;
-  top: 250px;
-  right: 347px;
+  top: 253px;
+  right: 357px;
   width: 14%;
 }
 
@@ -285,6 +289,7 @@ html,body{
     font-family: Helvetica;
     font-size: 60px;
     font-weight: 500;
+    line-height: 90px;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -316,21 +321,25 @@ html,body{
 .search-number-tab .nav-tabs .nav-link {
     margin-bottom: -1px;
     background: 0 0;
-    border: 1px solid transparent;
+    border: 0px solid transparent;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     padding: .1rem 0.5rem;
 }
 
-/* .search-number-tab .advance{
+.search-number-tab .advance{
     font-family: Helvetica;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0em;
     text-align: center;
-    color: #ffffff;
-    background-color: #00A1BA;
-} */
+    color: #000000;
+}
+
+.btn-close {
+    background: transparent url("/assets/img/btn-close.svg") center/1em auto no-repeat;
+    opacity: 1;
+}
 
 .search-number-tab .search-tab-head.active{
     border: 0;
@@ -398,15 +407,15 @@ html,body{
 }
 
 .vipnumber-section .modal-box1 .nav-tabs .nav-link{
-    color: #fff;
-    background-color:#00A1BA;
+    color: #000000;
+    font-size: 18px;
     padding-left: 10px !important;
     padding-right: 10px !important;
 }
 
 .vipnumber-section .modal-box1 .nav-tabs .nav-link.active {
-    color: #00A1BA;
-    background-color: #fff;
+    color: #ffffff;
+    font-size: 20px;
     padding-left: 10px !important;
     padding-right: 10px !important;
     border-top-left-radius: 0.8rem;
@@ -417,6 +426,7 @@ html,body{
 .search-content{
     background-color: #fff;
     padding: 20px;
+    border-radius: 20px;
 }
 
 .search-content .advance-box{
@@ -515,11 +525,12 @@ hr.hr-bottom{
 
 .exclusive-number .top-heading{
     font-family: Helvetica;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 700;
     letter-spacing: 0em;
     text-align: center;
     margin-bottom: 3rem;
+    text-transform: uppercase;
 }
 
 .favorite-number .favorite-icon{
@@ -529,22 +540,22 @@ hr.hr-bottom{
 
 .payamount .favorite-icon{
     width: 5rem;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-bottom: 25px;
 }
 .upc .favorite-icon{
     width: 7rem;
-    margin-left: 28px;
+    margin-left: 15px;
     margin-bottom: 25px;
 }
 .retailer .favorite-icon{
     width: 4rem;
-    margin-left: 85px;
+    margin-left: 65px;
     margin-bottom: 25px;
 }
 .activation .favorite-icon{
     width: 4rem;
-    margin-left: 125px;
+    margin-left: 100px;
     margin-bottom: 25px;
 }
 
@@ -591,7 +602,7 @@ hr.hr-bottom{
 
 
 .exclusive-content .margin-right{
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 .read-more{
@@ -608,7 +619,7 @@ hr.hr-bottom{
 
 .featured-vip-section .top-heading{
     font-family: Helvetica;
-    font-size: 55px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 74px;
     letter-spacing: 0em;
@@ -622,7 +633,7 @@ hr.hr-bottom{
     background-color: #00A1BA;
     border: none;
     border-radius: 15px;
-    width: 17rem;
+    width: 18rem;
     box-shadow: 0px 0px 20px 0px #00000026;
     margin-bottom: 55px;
 }
@@ -631,7 +642,7 @@ hr.hr-bottom{
     background-color: #000000;
     border: none;
     border-radius: 15px;
-    width: 17rem;
+    width: 18rem;
     box-shadow: 0px 0px 20px 0px #00000026;
     margin-bottom: 55px;
 }
@@ -786,7 +797,7 @@ hr.hr-bottom{
 
 .testimonial-section .heading{
     font-family: Helvetica;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 74px;
     letter-spacing: 0em;
@@ -795,7 +806,8 @@ hr.hr-bottom{
 }
 
 .testimonial-card .name-part{
-    text-align: right;
+    text-align: left;
+    margin: 45px 0px;
 }
 
 .testimonial-card .head-tag{
@@ -810,9 +822,9 @@ hr.hr-bottom{
     font-family: Helvetica;
     font-size: 25px;
     font-weight: 600;
-    line-height: 15px;
+    line-height: 16px;
     letter-spacing: 0em;
-    text-align: right;
+    text-align: left;
 }
 
 .testimonial-card .google-icon{
@@ -847,7 +859,7 @@ hr.hr-bottom{
 
 }
 .testimonial-card {
-    width: 25rem;
+    width: 27rem;
     height: auto;
     flex: 0 0 auto;
     margin: 0 0.75rem;
@@ -874,7 +886,7 @@ hr.hr-bottom{
 }
 
 .scroll-top-btn img{
-    width: 26px;
+    width: 23px;
 }
 
 /* Footer section */
@@ -902,7 +914,7 @@ hr.hr-bottom{
 .left-footer .desc-para{
     font-family: inherit;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: justify;
@@ -947,9 +959,10 @@ hr.hr-bottom{
 
 .center-footer .content-details{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    padding: 0px 50px;
 }
 
 .content-details .heading{
@@ -1517,6 +1530,7 @@ hr.hr-bottom{
     font-family: Helvetica;
     font-size: 18px;
     font-weight: 700;
+    width: 160px;
     letter-spacing: 0em;
     text-align: center;
     color: #ffffff;
@@ -1531,12 +1545,117 @@ hr.hr-bottom{
     background-color: #FFA800;
 }
 
+/* Order details */
+
+.order-margin {
+    margin-top: 190px;
+    margin-bottom: 150px;
+}
+
+.order-details-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-details .order-details-heading{
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.order-details .order-details-confirm{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.order-details .order-details-para{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #00A1BA;
+}
+
+.order-details-left .order-details-details{
+    margin-top: 20px;
+}
+
+.order-details-details .order-details-value{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.order-details-button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.order-details-button .order-details-btn{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    width: 237px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #FFA800;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.order-details-button .order-details-btn:hover{
+    background-color: #00A1BA;
+}
+
+.order-details-section .order-right{
+    width: 50%;
+    background: #00A1BA;
+    border-radius: 30px;
+}
+
+.order-details-section .order-upc{
+    padding: 50px 40px;
+}
+
+.order-details-section .order-upc-text{
+    font-family: Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
 /* Payment failure */
 
 .payment-failure{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 145px 0px;
 }
 
 .payment-failure .retry-payment{
@@ -1557,7 +1676,6 @@ hr.hr-bottom{
     font-family: Helvetica;
     font-size: 22px;
     font-weight: 500;
-    font-style: italic;
     line-height: 48px;
     letter-spacing: 0em;
     text-align: left;
@@ -1611,8 +1729,18 @@ hr.hr-bottom{
 /* Sign up page */
 
 .signup-margin{
-    margin-top: 150px;
+    margin-top: 130px;
     margin-bottom: 10px;
+}
+
+.signin-margin{
+    margin-top: 170px;
+    margin-bottom: 200px;
+}
+
+.verify-margin{
+    margin-top: 150px;
+    margin-bottom: 175px;
 }
 
 .sign-up-page{
@@ -1632,6 +1760,7 @@ hr.hr-bottom{
     line-height: 64px;
     letter-spacing: 0em;
     text-align: left;
+    margin-bottom: 30px;
 }
 
 .sign-up-page .signup-btn{
@@ -1688,7 +1817,7 @@ hr.hr-bottom{
 
 .sign-up-page .otp-message{
     font-family: Helvetica;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0em;
@@ -1696,15 +1825,17 @@ hr.hr-bottom{
 }
 
 .otp-verify .ap-otp-input{
-    border: thin black solid;
+    border: 2px solid #000000;
     border-radius: 10px;
     width: 10%;
     height: 40px;
     text-align: center;
     font-size: 28px;
-    margin-right: 30px;
 }
 
+.otp-verify .otp-margin{
+    margin-right: 40px;
+}
 
 .otp-verify .ap-otp-input:focus{
     outline: none !important;
@@ -1716,7 +1847,12 @@ hr.hr-bottom{
 /* My Profile */
 
 .my-profile-nav .profile-top-img1{
-    margin-right: 262px;
+    width: 22px;
+    margin-right: 280px;
+}
+
+.my-profile-nav .profile-top-img{
+    width: 22px;
 }
 
 .profile-margin{
@@ -1749,8 +1885,10 @@ hr.hr-bottom{
 }
 
 .profile-page .form-control {
-    border: none !important;
-    border-bottom: dotted #00A1BA !important;
+    border: none ;
+    border-bottom: dotted #00A1BA ;
+    padding: 0;
+    border-radius: 0;
 }
 
 .profile-page .update-button{
@@ -1798,6 +1936,8 @@ hr.hr-bottom{
 .my-order-page .order-filter{
     display: flex;
     align-items: center;
+    position: relative;
+    left: 40px;
 }
 
 .order-filter .custom-select {
@@ -1884,7 +2024,7 @@ hr.hr-bottom{
 .select-go{
     background: #FBAF02;
     width: 45px;
-    height: 43px;
+    height: 41px;
     text-align: center;
     border-radius: 22px;
     position: relative;
@@ -2128,12 +2268,12 @@ hr.hr-bottom{
 /* @media only screen and (max-width: 600px) {} */
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (Max-width: 600px) and (min-width: 270px) {
     
 }
 
 
-/* @media only screen and (min-width: 768px)  {
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
     
     .navbar-section .topbar {
         border-radius: 15px;
@@ -2170,6 +2310,7 @@ hr.hr-bottom{
     }
     .vipnumber-section .left-part .head {
         font-size: 30px;
+        line-height: 45px;
     }
     .vipnumber-section .left-part #text{
         font-size: 30px;
@@ -2200,8 +2341,8 @@ hr.hr-bottom{
         margin-left: 5px;
     }
     .exclusive-number .top-heading {
-        font-size: 35px;
-        margin-bottom: 1rem;
+        font-size: 32px;
+        margin-bottom: 2rem;    
     }
     .exclusive-content .margin-right {
         margin-right: 15px;
@@ -2385,6 +2526,9 @@ hr.hr-bottom{
     .left-footer .social-margin {
         margin-right: 4px;
     }
+    .center-footer .content-details {
+        padding: 0px 15px;
+    }
     .content-details .heading {
         font-size: 18px;
     }
@@ -2469,10 +2613,12 @@ hr.hr-bottom{
         font-size: 16px;
         line-height: 25px;
     }
-} */
 
 
-@media only screen and (min-width: 992px) {
+}
+
+
+@media only screen and (max-width: 1050px) and (min-width: 992px) {
     .navbar-section .topbar {
         border-radius: 15px;
     }
@@ -2508,6 +2654,7 @@ hr.hr-bottom{
         }
     .vipnumber-section .left-part .head {
         font-size: 43px;
+        line-height: 60px;
     }
     .vipnumber-section .left-part #text{
         font-size: 43px;
@@ -2538,8 +2685,11 @@ hr.hr-bottom{
         margin-left: 3px;
     }
     .exclusive-number .top-heading {
-        font-size: 35px;
-        margin-bottom: 1rem;
+        font-size: 42px;
+        margin-bottom: 2rem;
+    }
+    .exclusive-number .exclusive-content {
+        margin: 0px 50px;
     }
     .exclusive-content .margin-right {
         margin-right: 15px;
@@ -2554,7 +2704,7 @@ hr.hr-bottom{
     }
     .payamount .favorite-icon {
         width: 3rem;
-        margin-left: 33px;
+        margin-left: 47px;
         margin-bottom: 25px;
     }
     .payamount .para {
@@ -2563,7 +2713,7 @@ hr.hr-bottom{
     }
     .upc .favorite-icon {
         width: 5rem;
-        margin-left: 15px;
+        margin-left: 17px;
         margin-bottom: 25px;
     }
     .upc .para {
@@ -2572,7 +2722,7 @@ hr.hr-bottom{
     }
     .retailer .favorite-icon {
         width: 3rem;
-        margin-left: 40px;
+        margin-left: 55px;
         margin-bottom: 25px;
     }
     .retailer .para {
@@ -2581,7 +2731,7 @@ hr.hr-bottom{
     }
     .activation .favorite-icon {
         width: 3rem;
-        margin-left: 65px;
+        margin-left: 88px;
         margin-bottom: 25px;
     }
     .activation .para {
@@ -2593,7 +2743,7 @@ hr.hr-bottom{
         font-size: 13px;
     }
     .featured-vip-section .top-heading {
-        font-size: 35px;
+        font-size: 50px;
         line-height: 55px;
         margin: 20px 0px;
     }
@@ -2635,7 +2785,7 @@ hr.hr-bottom{
     }
 
     .multiple-options-section .multiple-options {
-        padding: 10px 18px 10px 18px;
+        padding: 10px 38px 10px 38px;
     }
     .multiple-options .heading {
         font-size: 15px;
@@ -2655,9 +2805,16 @@ hr.hr-bottom{
     }
 
     .testimonial-section .heading {
-        font-size: 35px;
+        font-size: 50px;
         line-height: 30px;
         margin-top: 40px;
+    }
+    
+    .testimonial-container {
+        max-width: 55rem;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
     }
     .testimonial-card .head-tag {
         font-size: 20px;
@@ -2710,10 +2867,10 @@ hr.hr-bottom{
         padding-top: 0;
     }
     .left-footer .company-logo {
-        width: 120px;
+        width: 145px;
     }
     .left-footer {
-        width: 8rem;
+        width: 9rem;
     }
     .left-footer .desc-para {
         font-size: 12px;
@@ -2721,7 +2878,7 @@ hr.hr-bottom{
         margin-top: 15px;
     }
     .left-footer .social-margin {
-        margin-right: 4px;
+        margin-right: 7px;
     }
     .content-details .heading {
         font-size: 18px;
@@ -2758,55 +2915,752 @@ hr.hr-bottom{
         font-size: 12px;
     }
     .center-footer {
-        width: 45%;
+        width: 50%;
     }
     .center-footer .search-input-btn {
         width: 60%;
     }
-
-
     .offcanvas-end {
-        width: 335px;
+        width: 375px;
     }
     .left-cart-top .cart-head {
-        font-size: 28px;
+        font-size: 33px;
     }
     .left-cart-top .cart-logo {
-        width: 18px;
+        width: 22px;
     }
     .cart-top .right-cart-top .close-cart {
-        width: 25px;
-        cursor: pointer;
+        width: 28px;
     }
     .left-cart-middle .sim-logo {
-        width: 35px;
+        width: 40px;
     }
     .left-cart-middle .left-middle-text {
-        font-size: 16px;
+        font-size: 18px;
     }
     .right-cart-middle .right-middle-text {
-        font-size: 16px;
+        font-size: 18px;
     }
     .cart-middle {
         margin: 20px 0px;
     }
     .cart-bottom .bottom-text {
-        font-size: 14px;
+        font-size: 16px;
     }
     .cart-bottom .subtotal {
-        font-size: 22px;
+        font-size: 24px;
     }
     .cart-bottom .price {
-        font-size: 21px;
+        font-size: 23px;
     }
     .checkout-btn .check-btn {
-        font-size: 16px;
-        line-height: 25px;
+        font-size: 18px;
+        line-height: 29px;
     }
     .proceed-btn .pro-btn {
-        font-size: 16px;
-        line-height: 25px;
+        font-size:18px;
+        line-height: 29px;
     }
 }
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (max-width: 1250px) and (min-width: 1051px) {
+    .navbar-section .topbar {
+        border-radius: 28px;
+    }
+    .navlogo {
+        width: 75%;
+    }
+    .navbar-section .nav-heading {
+        font-size: 24px;
+        padding: 0 0.8rem !important;
+    }
+    .navbar-section .nav-heading.active {
+        font-size: 24px;
+    }
+    .mb-2 {
+        margin-bottom: 0rem!important;
+    }
+    .margin-topbar {
+        margin-top: 100px;
+        overflow: hidden;
+    }
+    .vipnumber-section {    
+        height: 450px;
+    }
+    .vipnumber-section #circle .text {
+        width: 100%;
+        height: 470px;
+    }
+    .vipnumber-section #circle .image {
+        position: absolute;
+        top: 147px;
+        right: 182px;
+        width: 35%;
+        }
+    .vipnumber-section .left-part .head {
+        font-size: 52px;
+        line-height: 70px;
+    }
+    .vipnumber-section .left-part #text{
+        font-size: 52px;
+    }
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        position: relative;
+        left: 20px;
+    }
+    .search-number-tab .search-tab-head {
+        font-size: 22px;
+    }
+    .search-number-tab .nav-tabs .nav-link {
+        margin-bottom: -10px;
+    }
+    .px-4 {
+        padding-right: 0.6rem!important;
+        padding-left: 0.6rem!important;
+    }
+    .search-number-tab input::placeholder {
+        font-size: 15px;
+    }
+    .search-number-tab .search-btn {
+        font-size: 18px;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-left: 3px;
+    }
+    .exclusive-number .top-heading {
+        font-size: 50px;
+        margin-bottom: 2rem;
+    }
+    .exclusive-number .exclusive-content {
+        margin: 0px 35px;
+    }
+    .exclusive-content .margin-right {
+        margin-right: 35px;
+    }
+    .favorite-number .favorite-icon {
+        width: 10rem;
+        margin-bottom: 15px;
+    }
+    .favorite-number .para {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .payamount .favorite-icon {
+        width: 4rem;
+        margin-left: 55px;
+        margin-bottom: 25px;
+    }
+    .payamount .para {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .upc .favorite-icon {
+        width: 6rem;
+        margin-left: 23px;
+        margin-bottom: 25px;
+    }
+    .upc .para {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .retailer .favorite-icon {
+        width: 3.5rem;
+        margin-left: 72px;
+        margin-bottom: 25px;
+    }
+    .retailer .para {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+    .activation .favorite-icon {
+        width: 3.5rem;
+        margin-left: 107px;
+        margin-bottom: 25px;
+    }
+    .activation .para {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .read-more {
+        font-family: Helvetica;
+        font-size: 18px;
+    }
+    .featured-vip-section .top-heading {
+        font-size: 55px;
+        line-height: 65px;
+        margin: 25px 0px;
+    }
+    .featured-card-content .card1 {
+        width: 15rem;
+        margin-bottom: 40px;
+        box-shadow: 0px 0px 10px 0px #00000026;
+    }
+    .featured-card-content .top-head .heading {
+        font-size: 25px;
+        line-height: 45px
+    }
+    .featured-card-content .middle-head {
+        padding: 4px 12px;
+    }
+    .featured-card-content .middle-head .middle-para-margin {
+        margin-left: 2px;
+    }
+    .featured-card-content .bottom-head {
+        padding: 3px 12px;
+    }
+    .featured-card-content .bottom-head .left {
+        font-size: 11px;
+    }
+    .featured-card-content .bottom-head .right {
+        font-size: 18px;
+    }
+    .add-to-cart-btn .cart-btn {
+        font-size: 13px;
+        margin-bottom: 11px;
+    }
+    .add-to-cart-btn .cart-btn img {
+        width: 17px;
+    }
+    .view-more {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .multiple-options-section .multiple-options {
+        padding: 10px 38px 10px 38px;
+    }
+    .multiple-options .heading {
+        font-size: 23px;
+        line-height: 25px;
+    }
+    .multiple-options .img-category1 {
+        margin-left: 70px;
+    }
+    .multiple-options .img-category2 {
+        margin-left: 125px;
+    }
+    .multiple-options .img-category3 {
+        margin-left: 102px;
+    }
+    .multiple-options .img-category4 {
+        margin-left: 93px;
+    }
+
+    .testimonial-section .heading {
+        font-size: 55px;
+        line-height: 40px;
+        margin-top: 50px;
+    }
+    
+    .testimonial-container {
+        max-width: 65rem;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .testimonial-card .head-tag {
+        font-size: 27px;
+    }
+    .testimonial-card .name-tag {
+        font-size: 23px;
+    }
+    .testimonial-card .star-icon img{
+        width: 26px;
+    }
+    .testimonial-card .google-icon {
+        width: 160px;
+        position: relative;
+        left: -17px;
+        bottom: -18px;
+    }
+    .scroll {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 1rem 0;
+        margin: 1rem 0;
+        cursor: default;
+        overflow:hidden;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0px 1.25rem;
+        scrollbar-width: none;
+    }
+
+    .testimonial-card {
+        width: 22rem;
+        height: auto;
+        flex: 0 0 auto;
+        margin: 0 0.35rem;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        color: black;
+        background: white;
+        box-shadow: 0px 0px 20px 0px #00000026;
+
+    }
+    .footer-content {
+        padding-top: 0;
+    }
+    .left-footer .company-logo {
+        width: 185px;
+    }
+    .left-footer {
+        width: 11.5rem;
+    }
+    .left-footer .desc-para {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 25px;
+    }
+    .left-footer .social-margin {
+        margin-right: 15px;
+    }
+    .center-footer .content-details {
+        padding: 0px 5px;
+    }
+    .content-details .heading {
+        font-size: 20px;
+    }
+    .content-details .list-head {
+        font-size: 16px;
+    }
+    .contact-content-details .heading {
+        font-size: 20px;
+    }
+    .contact-category .contact-part {
+        font-size: 16px;
+    }
+    .center-details input::placeholder {
+        font-size: 16px;
+    }
+    .center-footer .search-btn {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;    
+    }
+    .right-footer .invite-people{
+        width: 40px;
+    }
+    .right-footer .search-btn {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .copyright-section .left {
+        font-size: 14px;
+    }
+    .copyright-section .right {
+        font-size: 14px;
+    }
+    .center-footer {
+        width: 50%;
+    }
+    .center-footer .search-input-btn {
+        width: 75%;
+    }
+    .offcanvas-end {
+        width: 420px;
+    }
+    .left-cart-top .cart-head {
+        font-size: 35px;
+    }
+    .left-cart-top .cart-logo {
+        width: 24px;
+    }
+    .cart-top .right-cart-top .close-cart {
+        width: 30px;
+    }
+    .left-cart-middle .sim-logo {
+        width: 45px;
+    }
+    .left-cart-middle .left-middle-text {
+        font-size: 20px;
+    }
+    .right-cart-middle .right-middle-text {
+        font-size: 20px;
+    }
+    .right-cart-middle .category-close{
+        width: 17px;
+        margin-bottom: 4px;
+    }
+    .cart-middle {
+        margin: 25px 0px;
+    }
+    .cart-bottom .bottom-text {
+        font-size: 18px;
+    }
+    .cart-bottom .subtotal {
+        font-size: 26px;
+    }
+    .cart-bottom .price {
+        font-size: 25px;
+    }
+    .checkout-btn .check-btn {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .proceed-btn .pro-btn {
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
+
+@media only screen and (max-width: 1450px) and (min-width: 1251px) {
+    .navbar-section .topbar {
+        border-radius: 28px;
+    }
+    .navlogo {
+        width: 75%;
+    }
+    .navbar-section .nav-heading {
+        font-size: 24px;
+        padding: 0 0.8rem !important;
+    }
+    .navbar-section .nav-heading.active {
+        font-size: 24px;
+    }
+    .mb-2 {
+        margin-bottom: 0rem!important;
+    }
+    .margin-topbar {
+        margin-top: 100px;
+        overflow: hidden;
+    }
+    .vipnumber-section {    
+        height: 450px;
+    }
+    .vipnumber-section #circle .text {
+        width: 100%;
+        height: 470px;
+    }
+    .vipnumber-section #circle .image {
+        position: absolute;
+        top: 147px;
+        right: 182px;
+        width: 35%;
+        }
+    .vipnumber-section .left-part .head {
+        font-size: 52px;
+        line-height: 80px;
+    }
+    .vipnumber-section .left-part #text{
+        font-size: 52px;
+    }
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        position: relative;
+        left: 20px;
+    }
+    .search-number-tab .search-tab-head {
+        font-size: 22px;
+    }
+    .search-number-tab .nav-tabs .nav-link {
+        margin-bottom: -10px;
+    }
+    .px-4 {
+        padding-right: 0.6rem!important;
+        padding-left: 0.6rem!important;
+    }
+    .search-number-tab input::placeholder {
+        font-size: 15px;
+    }
+    .search-number-tab .search-btn {
+        font-size: 18px;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-left: 3px;
+    }
+    .exclusive-number .top-heading {
+        font-size: 52px;
+        margin-bottom: 2.5rem;
+    }
+    .exclusive-number .exclusive-content {
+        margin: 0px 35px;
+    }
+    .exclusive-content .margin-right {
+        margin-right: 35px;
+    }
+    .favorite-number .favorite-icon {
+        width: 10rem;
+        margin-bottom: 15px;
+    }
+    .favorite-number .para {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .payamount .favorite-icon {
+        width: 4rem;
+        margin-left: 55px;
+        margin-bottom: 25px;
+    }
+    .payamount .para {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .upc .favorite-icon {
+        width: 6rem;
+        margin-left: 23px;
+        margin-bottom: 25px;
+    }
+    .upc .para {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .retailer .favorite-icon {
+        width: 3.5rem;
+        margin-left: 72px;
+        margin-bottom: 25px;
+    }
+    .retailer .para {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+    .activation .favorite-icon {
+        width: 3.5rem;
+        margin-left: 107px;
+        margin-bottom: 25px;
+    }
+    .activation .para {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .read-more {
+        font-family: Helvetica;
+        font-size: 18px;
+    }
+    .featured-vip-section .top-heading {
+        font-size: 55px;
+        line-height: 65px;
+        margin: 25px 0px;
+    }
+    .featured-card-content .card1 {
+        width: 15rem;
+        margin-bottom: 40px;
+        box-shadow: 0px 0px 10px 0px #00000026;
+    }
+    .featured-card-content .top-head .heading {
+        font-size: 25px;
+        line-height: 45px
+    }
+    .featured-card-content .middle-head {
+        padding: 4px 12px;
+    }
+    .featured-card-content .middle-head .middle-para-margin {
+        margin-left: 2px;
+    }
+    .featured-card-content .bottom-head {
+        padding: 3px 12px;
+    }
+    .featured-card-content .bottom-head .left {
+        font-size: 11px;
+    }
+    .featured-card-content .bottom-head .right {
+        font-size: 18px;
+    }
+    .add-to-cart-btn .cart-btn {
+        font-size: 13px;
+        margin-bottom: 11px;
+    }
+    .add-to-cart-btn .cart-btn img {
+        width: 17px;
+    }
+    .view-more {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .multiple-options-section .multiple-options {
+        padding: 10px 38px 10px 38px;
+    }
+    .multiple-options .heading {
+        font-size: 23px;
+        line-height: 25px;
+    }
+    .multiple-options .img-category1 {
+        margin-left: 70px;
+    }
+    .multiple-options .img-category2 {
+        margin-left: 125px;
+    }
+    .multiple-options .img-category3 {
+        margin-left: 102px;
+    }
+    .multiple-options .img-category4 {
+        margin-left: 93px;
+    }
+
+    .testimonial-section .heading {
+        font-size: 55px;
+        line-height: 40px;
+        margin-top: 50px;
+    }
+    
+    .testimonial-container {
+        max-width: 65rem;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .testimonial-card .head-tag {
+        font-size: 27px;
+    }
+    .testimonial-card .name-tag {
+        font-size: 23px;
+    }
+    .testimonial-card .star-icon img{
+        width: 26px;
+    }
+    .testimonial-card .google-icon {
+        width: 160px;
+        position: relative;
+        left: -17px;
+        bottom: -18px;
+    }
+    .scroll {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 1rem 0;
+        margin: 1rem 0;
+        cursor: default;
+        overflow:hidden;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0px 1.25rem;
+        scrollbar-width: none;
+    }
+
+    .testimonial-card {
+        width: 22rem;
+        height: auto;
+        flex: 0 0 auto;
+        margin: 0 0.35rem;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        color: black;
+        background: white;
+        box-shadow: 0px 0px 20px 0px #00000026;
+
+    }
+    .footer-content {
+        padding-top: 0;
+    }
+    .left-footer .company-logo {
+        width: 185px;
+    }
+    .left-footer {
+        width: 11.5rem;
+    }
+    .left-footer .desc-para {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 25px;
+    }
+    .left-footer .social-margin {
+        margin-right: 15px;
+    }
+    .center-footer .content-details {
+        padding: 0px 7px;
+    }
+    .content-details .heading {
+        font-size: 20px;
+    }
+    .content-details .list-head {
+        font-size: 16px;
+    }
+    .contact-content-details .heading {
+        font-size: 20px;
+    }
+    .contact-category .contact-part {
+        font-size: 16px;
+    }
+    .center-details input::placeholder {
+        font-size: 16px;
+    }
+    .center-footer .search-btn {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;    
+    }
+    .right-footer .invite-people{
+        width: 40px;
+    }
+    .right-footer .search-btn {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .copyright-section .left {
+        font-size: 14px;
+    }
+    .copyright-section .right {
+        font-size: 14px;
+    }
+    .center-footer {
+        width: 50%;
+    }
+    .center-footer .search-input-btn {
+        width: 75%;
+    }
+    .offcanvas-end {
+        width: 420px;
+    }
+    .left-cart-top .cart-head {
+        font-size: 35px;
+    }
+    .left-cart-top .cart-logo {
+        width: 24px;
+    }
+    .cart-top .right-cart-top .close-cart {
+        width: 30px;
+    }
+    .left-cart-middle .sim-logo {
+        width: 45px;
+    }
+    .left-cart-middle .left-middle-text {
+        font-size: 20px;
+    }
+    .right-cart-middle .right-middle-text {
+        font-size: 20px;
+    }
+    .right-cart-middle .category-close{
+        width: 17px;
+        margin-bottom: 4px;
+    }
+    .cart-middle {
+        margin: 25px 0px;
+    }
+    .cart-bottom .bottom-text {
+        font-size: 18px;
+    }
+    .cart-bottom .subtotal {
+        font-size: 26px;
+    }
+    .cart-bottom .price {
+        font-size: 25px;
+    }
+    .checkout-btn .check-btn {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .proceed-btn .pro-btn {
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
