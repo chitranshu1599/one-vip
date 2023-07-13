@@ -1624,6 +1624,21 @@ hr.hr-bottom{
     margin-top: 30px;
 }
 
+.order-details-button .order-disabled-btn{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    width: 237px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #A1A1A1;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
 .order-details-button .order-details-btn:hover{
     background-color: #00A1BA;
 }
