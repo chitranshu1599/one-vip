@@ -1881,6 +1881,10 @@ hr.hr-bottom{
     align-items: center;
 }
 
+.profile-page .left-profile{
+    width: 50%;
+}
+
 .profile-page .create-account{
     font-family: Helvetica;
     font-size: 45px;
@@ -1957,7 +1961,6 @@ hr.hr-bottom{
 
 .order-filter .custom-select {
     position: relative;
-    font-family: Arial;
     width: 215px;
 }
   
@@ -2418,7 +2421,10 @@ hr.hr-bottom{
     .featured-card-content .card1 {
         width: 13.5rem;
         margin-bottom: 27px;
-        box-shadow: 0px 0px 10px 0px #00000026;
+    }
+    .featured-card-content .card2 {
+        width: 13.5rem;
+        margin-bottom: 27px;
     }
     .featured-card-content .top-head .heading {
         font-size: 25px;
@@ -2522,8 +2528,6 @@ hr.hr-bottom{
         box-shadow: 0px 0px 20px 0px #00000026;
 
     }
-
-
     .footer-content {
         padding-top: 0;
     }
@@ -2627,6 +2631,304 @@ hr.hr-bottom{
     .proceed-btn .pro-btn {
         font-size: 16px;
         line-height: 25px;
+    }
+    .navbar-section .topbar1 {
+        border-radius: 20px;
+    }
+    .sum-button {
+        background-color: #FBAF02;
+        border-radius: 20px;
+        width: 14%;
+        margin-right: 5px;
+    }
+    .sum-button .form-control {
+        padding: 0.1rem 0.2rem;
+        font-size: 14px;
+        line-height: 2.3;
+    }
+    .sum-button .input-group-text {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .category-button {
+        margin-right: 5px;
+    }
+    .category-button .btn-category {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .category-button .category-img {
+        width: 10px;
+        opacity: 0.5;
+        margin-left: 5px;
+    }
+    .category-button .dropdown-menu {
+        font-size: 14px;
+        min-width: 7rem;
+    }
+    .filter-button .btn-category {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .filter-button .category-img {
+        width: 10px;
+        opacity: 0.5;
+        margin-left: 5px;
+    }
+    .dropdown-menu[data-bs-popper] {
+        top: 100%;
+        left: -68px;
+        margin-top: 0.125rem;
+    }
+    .store-navbar .price-button {
+        margin-right: 5px;
+    }
+    .price-button .range-bar {
+        width: 140px;
+    }
+    .price-button .price-text {
+        font-size: 14px;
+    }
+    .filter-category .filter-text {
+        font-size: 14px;
+        line-height: 10px;
+        margin-right: 5px;
+    }
+    .filter-navbar .close-button .filter-close {
+        width: 18px;
+    }
+    .store-margin-top {
+        margin-top: 240px;
+    }
+    .store-promo .promo-banner {
+        width: -webkit-fill-available;
+        margin-bottom: 30px;
+    }
+    .payment-failure .failure-img{
+        width: 270px;
+    }
+    .payment-failure .left-retry-head {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    
+    .payment-failure .retry-para {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .retry-button .retry-btn {
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .my-profile-nav .profile-top-img1 {
+        width: 18px;
+        margin-right: 142px;
+    }
+    .profile-page .right-profile img{
+        width: 260px;
+    }
+    .profile-page .create-account {
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .profile-page .form-label {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .profile-page .form-control {
+        font-size: 14px;
+    }
+    .left-profile .col-form-label {
+        line-height: 1.1;
+        font-size: 16px;
+    }
+    .my-order-page .order-page-heading {
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .order-filter .select-selected {
+        padding: 7px 35px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .select-selected:after {
+        position: absolute;
+        content: "";
+        top: 10px;
+        left: 10px;
+        width: 15px;
+        height: 20px;
+    }
+    .select-go {
+        width: 40px;
+        height: 37px;
+        position: relative;
+        right: 39px;
+    }
+    .select-go .go {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .order-filter .custom-select {
+        width: 185px;
+    }
+    .order-filter .select-items div {
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .order-filter .select-items {
+        width: 120px;
+    }
+    .my-order .my-order-head {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 18px;
+    }
+    .order-content-left .left-order-img {
+        margin-right: 16px;
+        width: 60px;
+    }
+    .my-order .order-info {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .order-content-right .right-order-img {
+        margin-left: 130px;
+        margin-bottom: 32px;
+        width: 25px;
+    }
+    .refer-and-earn-page .left-refer-earn{
+        width: 60%;
+    }
+    .refer-and-earn-page .right-refer-img{
+        width: 250px;
+    }
+    .refer-and-earn .top-coin-head {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .refer-and-earn .top-refer-head {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .refer-and-earn .top-refer-para {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .email-form .form-label {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .email-form .form-control {
+        font-size: 12px;
+    }
+    .email-form .email-btn {
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .refer-and-earn .middle-or {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .refer-and-earn .referral-btn {
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .refer-and-earn .bottom-refer{
+        width: 88%;
+    }
+    .refer-and-earn .referral-para {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .refer-and-earn .copy-logo {
+        width: 12px;
+    }
+    .refer-and-earn .bottom-refer-para {
+        font-size: 6px;
+        line-height: 14px;
+    }
+    .order-section .order-img{
+        width: 370px;
+    }
+    .order .order-heading {
+        font-size: 35px;
+    }
+    .order .order-confirm {
+        font-size: 20px;
+    }
+    .order .order-para {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .order-details .order-details-heading {
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .order-details .order-name {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .order-details .order-value {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .order .download-button .download-btn {
+        font-size: 14px;
+    }
+    .go-to-order .go-my-order {
+        font-size: 13px;
+    }
+    .order-details .order-details-confirm {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .order-details .order-details-para {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .order-details-details .order-details-value {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .order-details-button .order-details-btn {
+        font-size: 14px;
+        width: 200px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .order-details-button .order-disabled-btn {
+        font-size: 14px;
+        width: 200px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .order-details-section .order-upc {
+        padding: 25px 20px;
+    }
+    .order-details-section .order-upc-text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .pnf-margin {
+        margin-top: 150px;
+        margin-bottom: 80px;
+    }
+    .page-not-found .page-not-found-img {
+        margin-left: 15%;
+    }
+    .page-not-found .pnf-para {
+        font-size: 16px;
+    }
+    .sign-up-page .signup-img{
+        width: 335px;
+    }
+    .otp-verify .otp-margin {
+        margin-right: 24px;
     }
 
 
@@ -2765,7 +3067,10 @@ hr.hr-bottom{
     .featured-card-content .card1 {
         width: 13.5rem;
         margin-bottom: 27px;
-        box-shadow: 0px 0px 10px 0px #00000026;
+    }
+    .featured-card-content .card2 {
+        width: 13.5rem;
+        margin-bottom: 27px;
     }
     .featured-card-content .top-head .heading {
         font-size: 25px;
@@ -2874,9 +3179,7 @@ hr.hr-bottom{
         color: black;
         background: white;
         box-shadow: 0px 0px 20px 0px #00000026;
-
     }
-
 
     .footer-content {
         padding-top: 0;
@@ -2976,6 +3279,305 @@ hr.hr-bottom{
         font-size:18px;
         line-height: 29px;
     }
+    .navbar-section .topbar1 {
+        border-radius: 20px;
+    }
+    .sum-button {
+        background-color: #FBAF02;
+        border-radius: 20px;
+        width: 14%;
+        margin-right: 5px;
+    }
+    .sum-button .form-control {
+        padding: 0.1rem 0.2rem;
+        font-size: 14px;
+        line-height: 2.3;
+    }
+    .sum-button .input-group-text {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .category-button {
+        margin-right: 5px;
+    }
+    .category-button .btn-category {
+        font-size: 16px;
+        line-height: 24px;  
+    }
+    .category-button .category-img {
+        width: 12px;
+        opacity: 0.5;
+        margin-left: 14px;
+    }
+    .category-button .dropdown-menu {
+        font-size: 14px;
+        min-width: 7rem;
+    }
+    .filter-button .btn-category {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .filter-button .category-img {
+        width: 12px;
+        opacity: 0.5;
+        margin-left: 14px;
+    }
+    .dropdown-menu[data-bs-popper] {
+        top: 100%;
+        left: -50px;
+        margin-top: 0.125rem;
+    }
+    .store-navbar .price-button {
+        margin-right: 5px;
+    }
+    .price-button .range-bar {
+        width: 180px;
+    }
+    .price-button .price-text {
+        font-size: 14px;
+    }
+    .filter-category .filter-text {
+        font-size: 16px;
+        line-height: 16px;
+        margin-right: 10px;
+    }
+    .filter-navbar .close-button .filter-close {
+        width: 18px;
+    }
+    .store-margin-top {
+        margin-top: 240px;
+    }
+    .store-promo .promo-banner {
+        width: -webkit-fill-available;
+        margin-bottom: 30px;
+    }
+    .payment-failure .failure-img{
+        width: 400px;
+    }
+    .payment-failure .left-retry-head {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    
+    .payment-failure .retry-para {
+        font-size: 17px;
+        line-height: 40px;
+    }
+    .retry-button .retry-btn {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .my-profile-nav .profile-top-img1 {
+        width: 20px;
+        margin-right: 199px;
+    }
+    .profile-page .right-profile img{
+        width: 350px;
+    }
+    .profile-page .create-account {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .profile-page .form-label {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .profile-page .form-control {
+        font-size: 16px;
+    }
+    .left-profile .col-form-label {
+        line-height: 1.3;
+        font-size: 18px;
+    }
+    .my-order-page .order-page-heading {
+        font-size: 38px;
+        line-height: 55px;
+    }
+    .order-filter .select-selected {
+        padding: 7px 35px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .select-selected:after {
+        position: absolute;
+        content: "";
+        top: 12px;
+        left: 10px;
+        width: 17px;
+        height: 20px;
+    }
+    .select-go {
+        width: 42px;
+        height: 40px;
+        position: relative;
+        right: 40px;
+    }
+    .select-go .go {
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .order-filter .custom-select {
+        width: 198px;
+    }
+    .order-filter .select-items div {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .order-filter .select-items {
+        width: 130px;
+    }
+    .my-order .my-order-head {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .order-content-left .left-order-img {
+        margin-right: 16px;
+        width: 64px;
+    }
+    .my-order .order-info {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .order-content-right .right-order-img {
+        margin-left: 130px;
+        margin-bottom: 32px;
+        width: 27px;
+    }
+    .refer-and-earn-page .left-refer-earn{
+        width: 60%;
+    }
+    .refer-and-earn-page .right-refer-img{
+        width: 290px;
+    }
+    .refer-and-earn .top-coin-head {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .refer-and-earn .top-refer-head {
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .refer-and-earn .top-refer-para {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .email-form .form-label {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .email-form .form-control {
+        font-size: 14px;
+    }
+    .email-form .email-btn {
+        font-size: 14px;
+        padding-left: 22px;
+        padding-right: 22px;    
+    }
+    .refer-and-earn .middle-or {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .refer-and-earn .referral-btn {
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .refer-and-earn .bottom-refer{
+        width: 80%;
+    }
+    .refer-and-earn .referral-para {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .refer-and-earn .copy-logo {
+        width: 14px;
+    }
+    .refer-and-earn .bottom-refer-para {
+        font-size: 7px;
+        line-height: 16px;
+    }
+    .order-section .order-img{
+        width: 400px;
+    }
+    .order .order-heading {
+        font-size: 38px;
+    }
+    .order .order-confirm {
+        font-size: 22px;
+    }
+    .order .order-para {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .order-details .order-details-heading {
+        font-size: 35px;
+        line-height: 20px;
+    }
+    .order-details .order-name {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .order-details .order-value {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .order .download-button .download-btn {
+        font-size: 16px;
+    }
+    .go-to-order .go-my-order {
+        font-size: 15px;
+    }
+    .order-details .order-details-confirm {
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .order-details .order-details-para {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .order-details-details .order-details-value {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .order-details-button .order-details-btn {
+        font-size: 16px;
+        width: 210px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .order-details-button .order-disabled-btn {
+        font-size: 16px;
+        width: 210px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .order-details-section .order-upc {
+        padding: 35px 30px;
+    }
+    .order-details-section .order-upc-text {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .pnf-margin {
+        margin-top: 170px;
+        margin-bottom: 85px;
+    }
+    .page-not-found .page-not-found-img {
+        margin-left: 22%;
+    }
+    .page-not-found .pnf-para {
+        font-size: 20px;
+    }
+    .sign-up-page .signup-img{
+        width: 360px;
+    }
+    .otp-verify .otp-margin {
+        margin-right: 39px;
+    }
+
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 1051px) {
@@ -3111,7 +3713,10 @@ hr.hr-bottom{
     .featured-card-content .card1 {
         width: 15rem;
         margin-bottom: 40px;
-        box-shadow: 0px 0px 10px 0px #00000026;
+    }
+    .featured-card-content .card2 {
+        width: 15rem;
+        margin-bottom: 40px;
     }
     .featured-card-content .top-head .heading {
         font-size: 25px;
@@ -3327,6 +3932,305 @@ hr.hr-bottom{
         font-size: 20px;
         line-height: 35px;
     }
+    .navbar-section .topbar1 {
+        border-radius: 20px;
+    }
+    .sum-button {
+        background-color: #FBAF02;
+        border-radius: 20px;
+        width: 14%;
+        margin-right: 5px;
+    }
+    .sum-button .form-control {
+        padding: 0.1rem 0.4rem;
+        font-size: 16px;
+        line-height: 2.3;
+    }
+    .sum-button .input-group-text {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .category-button {
+        margin-right: 5px;
+    }
+    .category-button .btn-category {
+        font-size: 18px;
+        line-height: 26px; 
+    }
+    .category-button .category-img {
+        width: 14px;
+        opacity: 0.5;
+        margin-left: 26px;
+    }
+    .category-button .dropdown-menu {
+        font-size: 14px;
+        min-width: 7rem;
+    }
+    .filter-button .btn-category {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .filter-button .category-img {
+        width: 14px;
+        opacity: 0.5;
+        margin-left: 26px;
+    }
+    .dropdown-menu[data-bs-popper] {
+        top: 100%;
+        left: -30px;
+        margin-top: 0.125rem;
+    }
+    .store-navbar .price-button {
+        margin-right: 5px;
+    }
+    .price-button .range-bar {
+        width: 210px;
+    }
+    .price-button .price-text {
+        font-size: 16px;
+    }
+    .filter-category .filter-text {
+        font-size: 16px;
+        line-height: 16px;
+        margin-right: 10px;
+    }
+    .filter-navbar .close-button .filter-close {
+        width: 18px;
+    }
+    .store-margin-top {
+        margin-top: 260px;
+    }
+    .store-promo .promo-banner {
+        width: -webkit-fill-available;
+        margin-bottom: 30px;
+    }
+    .payment-failure .failure-img{
+        width: 390px;
+    }
+    .payment-failure .left-retry-head {
+        font-size: 34px;
+        line-height: 60px;
+    }
+    
+    .payment-failure .retry-para {
+        font-size: 18px;
+        line-height: 44px;
+    }
+    .retry-button .retry-btn {
+        font-size: 16px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .my-profile-nav .profile-top-img1 {
+        width: 22px;
+        margin-right: 242px;
+    }
+    .profile-page .right-profile img{
+        width: 400px;
+    }
+    .profile-page .create-account {
+        font-size: 43px;
+        line-height: 70px;
+    }
+    .profile-page .form-label {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .profile-page .form-control {
+        font-size: 18px;
+    }
+    .left-profile .col-form-label {
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    .my-order-page .order-page-heading {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .order-filter .select-selected {
+        padding: 7px 35px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .select-selected:after {
+        position: absolute;
+        content: "";
+        top: 12px;
+        left: 10px;
+        width: 17px;
+        height: 20px;
+    }
+    .select-go {
+        width: 42px;
+        height: 40px;
+        position: relative;
+        right: 40px;
+    }
+    .select-go .go {
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .order-filter .custom-select {
+        width: 205px;
+    }
+    .order-filter .select-items div {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .order-filter .select-items {
+        width: 130px;
+    }
+    .my-order .my-order-head {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 22px;
+    }
+    .order-content-left .left-order-img {
+        margin-right: 16px;
+        width: 64px;
+    }
+    .my-order .order-info {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .order-content-right .right-order-img {
+        margin-left: 130px;
+        margin-bottom: 40px;
+        width: 27px;
+    }
+    .refer-and-earn-page .left-refer-earn{
+        width: 60%;
+    }
+    .refer-and-earn-page .right-refer-img{
+        width: 330px;
+    }
+    .refer-and-earn .top-coin-head {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .refer-and-earn .top-refer-head {
+        font-size: 40px;
+        line-height: 65px;
+    }
+    .refer-and-earn .top-refer-para {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .email-form .form-label {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .email-form .form-control {
+        font-size: 16px;
+    }
+    .email-form .email-btn {
+        font-size: 16px;
+        padding-left: 25px;
+        padding-right: 25px;    
+    }
+    .refer-and-earn .middle-or {
+        font-size: 23px;
+        line-height: 25px;
+    }
+    .refer-and-earn .referral-btn {
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .refer-and-earn .bottom-refer{
+        width: 80%;
+    }
+    .refer-and-earn .referral-para {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .refer-and-earn .copy-logo {
+        width: 18px;
+    }
+    .refer-and-earn .bottom-refer-para {
+        font-size: 9px;
+        line-height: 16px;
+    }
+    .order-section .order-img{
+        width: 430px;
+    }
+    .order .order-heading {
+        font-size: 42px;
+    }
+    .order .order-confirm {
+        font-size: 24px;
+    }
+    .order .order-para {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .order-details .order-details-heading {
+        font-size: 40px;
+        line-height: 25px;
+    }
+    .order-details .order-name {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .order-details .order-value {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .order .download-button .download-btn {
+        font-size: 17px;
+    }
+    .go-to-order .go-my-order {
+        font-size: 16px;
+    }
+    .order-details .order-details-confirm {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .order-details .order-details-para {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .order-details-details .order-details-value {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .order-details-button .order-details-btn {
+        font-size: 17px;
+        width: 220px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .order-details-button .order-disabled-btn {
+        font-size: 17px;
+        width: 220px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .order-details-section .order-upc {
+        padding: 43px 35px;
+    }
+    .order-details-section .order-upc-text {
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .pnf-margin {
+        margin-top: 182px;
+        margin-bottom: 90px;
+    }
+    .page-not-found .page-not-found-img {
+        margin-left: 26%;
+    }
+    .page-not-found .pnf-para {
+        font-size: 24px;
+    }
+    .sign-up-page .signup-img{
+        width: 420px;
+    }
+    .otp-verify .otp-margin {
+        margin-right: 36px;
+    }
+
 }
 
 @media only screen and (max-width: 1450px) and (min-width: 1251px) {
@@ -3462,7 +4366,10 @@ hr.hr-bottom{
     .featured-card-content .card1 {
         width: 15rem;
         margin-bottom: 40px;
-        box-shadow: 0px 0px 10px 0px #00000026;
+    }
+    .featured-card-content .card2 {
+        width: 15rem;
+        margin-bottom: 40px;
     }
     .featured-card-content .top-head .heading {
         font-size: 25px;
@@ -3677,5 +4584,301 @@ hr.hr-bottom{
     .proceed-btn .pro-btn {
         font-size: 20px;
         line-height: 35px;
+    }
+    .navbar-section .topbar1 {
+        border-radius: 20px;
+    }
+    .sum-button {
+        background-color: #FBAF02;
+        border-radius: 20px;
+        width: 14%;
+        margin-right: 5px;
+    }
+    .sum-button .form-control {
+        padding: 0.1rem 0.4rem;
+        font-size: 16px;
+        line-height: 2.3;
+    }
+    .sum-button .input-group-text {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .category-button {
+        margin-right: 5px;
+    }
+    .category-button .btn-category {
+        font-size: 18px;
+        line-height: 26px; 
+    }
+    .category-button .category-img {
+        width: 14px;
+        opacity: 0.5;
+        margin-left: 26px;
+    }
+    .category-button .dropdown-menu {
+        font-size: 14px;
+        min-width: 7rem;
+    }
+    .filter-button .btn-category {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .filter-button .category-img {
+        width: 14px;
+        opacity: 0.5;
+        margin-left: 26px;
+    }
+    .dropdown-menu[data-bs-popper] {
+        top: 100%;
+        left: -30px;
+        margin-top: 0.125rem;
+    }
+    .store-navbar .price-button {
+        margin-right: 5px;
+    }
+    .price-button .range-bar {
+        width: 230px;
+    }
+    .price-button .price-text {
+        font-size: 16px;
+    }
+    .filter-category .filter-text {
+        font-size: 16px;
+        line-height: 16px;
+        margin-right: 10px;
+    }
+    .filter-navbar .close-button .filter-close {
+        width: 18px;
+    }
+    .store-margin-top {
+        margin-top: 260px;
+    }
+    .store-promo .promo-banner {
+        width: -webkit-fill-available;
+        margin-bottom: 30px;
+    }
+    .payment-failure .failure-img{
+        width: 440px;
+    }
+    .payment-failure .left-retry-head {
+        font-size: 45px;
+        line-height: 75px;
+    }
+    
+    .payment-failure .retry-para {
+        font-size: 23px;
+        line-height: 50px;
+    }
+    .retry-button .retry-btn {
+        font-size: 20px;
+    }
+    .my-profile-nav .profile-top-img1 {
+        width: 22px;
+        margin-right: 242px;
+    }
+    .profile-page .right-profile img{
+        width: 420px;
+    }
+    .profile-page .create-account {
+        font-size: 45px;
+        line-height: 70px;
+    }
+    .profile-page .form-label {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .profile-page .form-control {
+        font-size: 20px;
+    }
+    .left-profile .col-form-label {
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    .my-order-page .order-page-heading {
+        font-size: 45px;
+        line-height: 64px;
+    }
+    .order-filter .select-selected {
+        padding: 8px 35px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .select-selected:after {
+        position: absolute;
+        content: "";
+        top: 12px;
+        left: 10px;
+        width: 17px;
+        height: 20px;
+    }
+    .select-go {
+        width: 42px;
+        height: 41px;
+        position: relative;
+        right: 40px;
+    }
+    .select-go .go {
+        font-size: 20px;
+        line-height: 41px;
+    }
+    .order-filter .custom-select {
+        width: 205px;
+    }
+    .order-filter .select-items div {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .order-filter .select-items {
+        width: 140px;
+    }
+    .my-order .my-order-head {
+        font-size: 25px;
+        line-height: 32px;
+        margin-bottom: 22px;
+    }
+    .order-content-left .left-order-img {
+        margin-right: 20px;
+        width: 75px;
+    }
+    .my-order .order-info {
+        font-size: 23px;
+        line-height: 27px;
+    }
+    .order-content-right .right-order-img {
+        margin-left: 130px;
+        margin-bottom: 40px;
+        width: 27px;
+    }
+    .refer-and-earn-page .left-refer-earn{
+        width: 60%;
+    }
+    .refer-and-earn-page .right-refer-img{
+        width: 400px;
+    }
+    .refer-and-earn .top-coin-head {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .refer-and-earn .top-refer-head {
+        font-size: 45px;
+        line-height: 74px;
+    }
+    .refer-and-earn .top-refer-para {
+        font-size: 23px;
+        line-height: 31px;
+    }
+    .email-form .form-label {
+        font-size: 23px;
+        line-height: 31px;
+    }
+    .email-form .form-control {
+        font-size: 17px;
+    }
+    .email-form .email-btn {
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;    
+    }
+    .refer-and-earn .middle-or {
+        font-size: 25x;
+        line-height: 32px;
+    }
+    .refer-and-earn .referral-btn {
+        font-size: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .refer-and-earn .bottom-refer{
+        width: 90%;
+    }
+    .refer-and-earn .referral-para {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .refer-and-earn .copy-logo {
+        width: 20px;
+    }
+    .refer-and-earn .bottom-refer-para {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .order-section .order-img{
+        width: 470px;
+    }
+    .order .order-heading {
+        font-size: 45px;
+    }
+    .order .order-confirm {
+        font-size: 26px;
+    }
+    .order .order-para {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .order-details .order-details-heading {
+        font-size: 44px;
+        line-height: 30px;
+    }
+    .order-details .order-name {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .order-details .order-value {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .order .download-button .download-btn {
+        font-size: 18px;
+    }
+    .go-to-order .go-my-order {
+        font-size: 17px;
+    }
+    .order-details .order-details-confirm {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .order-details .order-details-para {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .order-details-details .order-details-value {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .order-details-button .order-details-btn {
+        font-size: 18px;
+        width: 230px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .order-details-button .order-disabled-btn {
+        font-size: 18px;
+        width: 230px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .order-details-section .order-upc {
+        padding: 50px 40px;
+    }
+    .order-details-section .order-upc-text {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .pnf-margin {
+        margin-top: 195px;
+        margin-bottom: 100px;
+    }
+    .page-not-found .page-not-found-img {
+        margin-left: 30%;
+    }
+    .page-not-found .pnf-para {
+        font-size: 25px;
+    }
+    .sign-up-page .signup-img{
+        width: 460px;
+    }
+    .otp-verify .otp-margin {
+        margin-right: 40px;
     }
 }
