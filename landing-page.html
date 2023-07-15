@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="container fixed-top">
+  <div class="container fixed-top" id="web-navbar">
     <div class="navbar-section pt-4">
       <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark topbar">
         <div class="container-fluid px-4">
@@ -129,6 +129,18 @@
       </nav>
     </div>
   </div>  
+  <div class="container">
+    <div class="mob-navbar">
+      <div class="main-navbar">
+        <div class="left-nav">
+          <img class="main-logo" src="/assets/img/logo.svg" alt="logo">
+        </div>
+        <div class="right-nav">
+          <img class="search-logo" src="/assets/img/search.svg" alt="search">
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container margin-topbar"> 
     <div class="vipnumber-section">
       <div class="row row1">
@@ -241,19 +253,19 @@
             </ul>
             <div class="tab-content mt-3" id="myTabContent">
               <div class="tab-pane fade show active" id="anywhere" role="tabpanel" aria-labelledby="anywhere-tab">
-                <form class="d-flex">
+                <form class="d-flex mob-search">
                   <input class="form-control me-2 px-4 rounded-pill search-input-btn" type="search" placeholder="Eg. 91 63 422254666" aria-label="Search">
                   <button class="btn rounded-pill search-btn" type="submit">Search</button>
                 </form>
               </div>
               <div class="tab-pane fade" id="startwith" role="tabpanel" aria-labelledby="startwith-tab">
-                <form class="d-flex">
+                <form class="d-flex mob-search">
                   <input class="form-control me-2 px-4 rounded-pill search-input-btn" type="search" placeholder="Eg. 91 63 422254666" aria-label="Search">
                   <button class="btn rounded-pill search-btn" type="submit">Search</button>
                 </form>
               </div>
               <div class="tab-pane fade" id="endwith" role="tabpanel" aria-labelledby="endwith-tab">
-                <form class="d-flex">
+                <form class="d-flex mob-search">
                   <input class="form-control me-2 px-4 rounded-pill search-input-btn" type="search" placeholder="Eg. 91 63 422254666" aria-label="Search">
                   <button class="btn rounded-pill search-btn" type="submit">Search</button>
                 </form>
@@ -294,6 +306,40 @@
           <p class="para">Your number will be activated within 4 to 5 working days</p>
         </div>
       </div>
+      <div class="exclusive-content-copy">
+        <div class="row">
+          <div class="col-6">
+            <div class="favorite-number1">
+              <img class="favorite-icon" src="/assets/img/number.svg" alt="number">
+              <p class="para">Select Favorite VIP Number</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="payamount1">
+              <img class="favorite-icon" src="/assets/img/payamount.svg" alt="amount">
+              <p class="para">Pay amount with zero Risk & Hassle</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="upc1">
+              <img class="favorite-icon" src="/assets/img/upc.svg" alt="upc">
+              <p class="para">Wait for Unique Porting Code</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="retailer1">
+              <img class="favorite-icon" src="/assets/img/retailer.svg" alt="retailer">
+              <p class="para">Visit Nearest Retailer Shop For activation</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="activation1">
+              <img class="favorite-icon" src="/assets/img/activation.svg" alt="activation">
+              <p class="para">Your number will be activated within 4 to 5 working days</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <p class="read-more">Read More.....</p>
       <hr class="hr-line2">
     </div>
@@ -301,7 +347,7 @@
       <h1 class="top-heading">Featured VIP Numbers</h1>
       <div class="featured-card-content">
         <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -322,7 +368,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -343,7 +389,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -364,7 +410,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -385,7 +431,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -406,7 +452,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -427,7 +473,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -448,7 +494,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -469,7 +515,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -490,7 +536,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -511,7 +557,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -532,7 +578,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -553,7 +599,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -574,7 +620,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -595,7 +641,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -616,7 +662,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -637,7 +683,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -658,7 +704,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -679,7 +725,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -700,7 +746,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -721,7 +767,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -742,7 +788,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -763,7 +809,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -784,7 +830,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-6">
             <div class="card card1">
               <div class="card-body p-0">
                 <div class="top-head">
@@ -826,6 +872,34 @@
         <div class="payment-options">
           <img class="img-category4" src="/assets/img/payment-options.svg" alt="payment-options">
           <h4 class="heading">Multiple Payment Options</h4>
+        </div>
+      </div>
+      <div class="multiple-options-copy">
+        <div class="row">
+          <div class="col-6">
+            <div class="satisfaction1">
+              <img class="img-category1" src="/assets/img/satisfaction.svg" alt="satisfaction">
+              <h4 class="heading">100% Satisfaction</h4>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="most-trusted1">
+              <img class="img-category2" src="/assets/img/most-trusted.svg" alt="most-trusted">
+              <h4 class="heading">India’s Most Trusted Website</h4>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="lowest-price1">
+              <img class="img-category3" src="/assets/img/lowest-price.svg" alt="lowest-price">
+              <h4 class="heading">Lowest price industrywise</h4>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="payment-options1">
+              <img class="img-category4" src="/assets/img/payment-options.svg" alt="payment-options">
+              <h4 class="heading">Multiple Payment Options</h4>
+            </div>
+          </div>
         </div>
       </div>
     </div>

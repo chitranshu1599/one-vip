@@ -234,8 +234,8 @@ html,body{
 
 .vipnumber-section #circle .image{ 
   position: absolute;
-  top: 253px;
-  right: 357px;
+  top: 283px;
+  right: 342px;
   width: 14%;
 }
 
@@ -489,9 +489,9 @@ html,body{
     justify-content: center;
 }
 
-.margin-topbar{
+/* .margin-topbar{
     margin-top: 80px;
-}
+} */
 
 hr.hr-line1{
     border-top: 3px dashed #00A1BA;
@@ -521,6 +521,10 @@ hr.hr-bottom{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
+
+.exclusive-number .exclusive-content-copy{
+    display: none;
 }
 
 .exclusive-number .top-heading{
@@ -760,6 +764,9 @@ hr.hr-bottom{
     align-items: center;
     border-radius: 20px;
 }
+.multiple-options-section .multiple-options-copy{
+    display: none;
+}
 
 .multiple-options .img-category1{
     width: 25%;
@@ -850,13 +857,12 @@ hr.hr-bottom{
     width: 100%;
     height: auto;
     padding: 1rem 0;
-    margin: 1rem 0;
+    margin: 2.5rem 0;
     cursor: default;
-    overflow:hidden;
+    overflow: scroll hidden;
     scroll-snap-type: x mandatory;
     scroll-padding: 0px 1.25rem;
     scrollbar-width: none;
-
 }
 .testimonial-card {
     width: 27rem;
@@ -871,8 +877,6 @@ hr.hr-bottom{
     box-shadow: 0px 0px 20px 0px #00000026;
 
 }
-
-
 
 .scroll-top-btn{
     background: #FFA800;
@@ -2283,11 +2287,411 @@ hr.hr-bottom{
   }
 
 
-/* @media only screen and (max-width: 600px) {} */
-
-
-@media only screen and (Max-width: 600px) and (min-width: 270px) {
+@media only screen and (Max-width: 331px) and (min-width: 270px) {
     
+}
+
+@media only screen and (Max-width: 451px) and (min-width: 330px) {
+    #web-navbar{
+        display: none;
+    }
+    .mob-navbar{
+        background: #000000;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 29px;
+        width: 43.5rem;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+    .mob-navbar .main-navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+    }
+    .main-navbar .search-logo{
+        width: 55px;
+    }
+    .margin-topbar {
+        margin-top: 0;
+    }
+    .vipnumber-section .row1 {
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+        width: 746px;
+    }
+    .vipnumber-section .left-part .head {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 90px;
+    }
+    .vipnumber-section .left-part #text {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 90px;
+    }
+    .vipnumber-section #circle .text{
+        position: absolute;
+        top: 22%;
+        right: -84%;
+        width: 60%;
+        height: 250px;
+    }
+    .vipnumber-section #circle .image {
+        position: absolute;
+        top: 33%;
+        left: 142%;
+        width: 23%;
+    }
+    .search-number-tab{
+        margin-top: 40px;
+        width: 43.5rem;
+    }
+    .search-number-tab #mytab{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .search-number-tab .nav {
+        justify-content: space-between;
+    }
+    .search-number-tab .advance {
+        font-size: 40px;
+    }
+    .search-number-tab .search-tab-head {
+        font-size: 30px;
+        padding: 0.5rem 0.7rem !important;
+        border-top-left-radius: 1rem !important;
+        border-top-right-radius: 1rem !important;
+    }
+    .search-number-tab .mob-search{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .search-number-tab .mob-search .form-control {
+        font-size: 40px;
+    }
+    .search-number-tab .search-btn{
+        font-size: 38px;
+        padding: 8px 40px;
+    }
+    .search-number-tab input::placeholder {
+        font-size: 30px;
+    }
+
+    hr.hr-line1 {
+        border-top: 5px dashed #00A1BA;
+        background: #ffffff;
+    }
+
+    hr.hr-line2 {
+        border-top: 5px dashed #FF840D;
+        background: #ffffff;
+    }
+
+    .exclusive-number {
+        width: 43.5rem;
+        margin-left: 29px;
+    }
+    .exclusive-number .top-heading {
+        font-size: 40px;
+        margin-bottom: 3rem;
+        margin-top: 50px;
+    }
+    .exclusive-number .exclusive-content {
+        display: none;
+    }
+    .exclusive-number .exclusive-content-copy {
+        display: block;
+    }
+    .exclusive-content-copy .margin-right {
+        margin-right: 0;
+    }
+    .exclusive-content-copy .favorite-number1{
+        margin-bottom: 25px;
+    }
+    .exclusive-content-copy .payamount1 {
+        margin-bottom: 25px;
+    }
+    .exclusive-content-copy .upc1 {
+        margin-bottom: 25px;
+    }
+    .exclusive-content-copy .retailer1 {
+        margin-bottom: 25px;
+    }
+    .exclusive-content-copy .activation1{
+        margin-bottom: 25px;
+    }
+    .exclusive-content-copy .favorite-number1 .favorite-icon{
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    .exclusive-content-copy .favorite-number1 .para {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        padding-left: 33px;
+        padding-right: 114px;
+    }
+    .exclusive-content-copy .payamount1 .favorite-icon{
+        margin-left: 105px;
+        margin-bottom: 10px;
+    }
+    .exclusive-content-copy .payamount1 .para {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 80px;
+    }
+    .exclusive-content-copy .upc1 .favorite-icon{
+        margin-left: 62px;
+        margin-bottom: 10px;
+    }
+    .exclusive-content-copy .upc1 .para {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        padding-left: 33px;
+        padding-right: 114px;
+    }
+    .exclusive-content-copy .retailer1 .favorite-icon{
+        margin-left: 125px;
+        margin-bottom: 10px;
+    }
+    .exclusive-content-copy .retailer1 .para {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 80px;
+    }
+    .exclusive-content-copy .activation1 .favorite-icon{
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+    .exclusive-content-copy .activation1 .para {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        padding-left: 33px;
+        padding-right: 114px;
+    }
+    .featured-vip-section{
+        width: 43.5rem;
+        margin-left: 29px;
+    }
+    .featured-card-content .row {
+        --bs-gutter-x: 3rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .featured-vip-section .top-heading{
+        font-size: 40px;
+    }
+    .featured-card-content .card1 {
+        width: 19rem;
+        margin-bottom: 55px;
+    }
+    .featured-card-content .card2 {
+        width: 19rem;
+        margin-bottom: 55px;
+    }
+    .featured-card-content .bottom-head {
+        padding: 10px 15px;
+    }
+    .add-to-cart-btn .cart-btn {
+        background: #FFA800;
+        font-size: 25px;
+        font-weight: 700;
+        width: 100%;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 0;
+        border-radius: 0;
+        border-bottom-left-radius: 13px;
+        border-bottom-right-radius: 13px;
+    }
+    .add-to-cart-btn .cart-btn img {
+        width: 25px;
+    }
+    .multiple-options-section{
+        width: 43.5rem;
+        margin-left: 29px;
+    }
+    .multiple-options-section .multiple-options{
+        display: none;
+    }
+    .multiple-options-section .multiple-options-copy{
+        display: block;
+        background: #FFA800;
+        padding: 35px;
+        border-radius: 20px;
+    }
+    .multiple-options-copy .heading {
+        font-family: Helvetica;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+    }
+    .multiple-options-copy .satisfaction1{
+        margin-bottom: 70px;
+    }
+    .multiple-options-copy .most-trusted1{
+        margin-bottom: 70px;
+    }
+    .multiple-options-copy .satisfaction1 .img-category1{
+        margin-left: 115px;
+    }
+    .multiple-options-copy .most-trusted1 .img-category2{
+        margin-left: 115px;
+    }
+    .multiple-options-copy .lowest-price1 .img-category3{
+        margin-left: 100px;
+    }
+    .multiple-options-copy .payment-options1 .img-category4{
+        margin-left: 90px;
+    }
+    .testimonial-section{
+        width: 43.5rem;
+        margin-left: 29px;
+    }
+    .testimonial-section .heading{
+        font-size: 40px;
+    }
+
+
+
+
+    .footer-section{
+        display: none;
+    }
+    
+}
+
+@media only screen and (Max-width: 600px) and (min-width: 450px) {
+    /* #web-navbar{
+        display: none;
+    }
+    .mob-navbar{
+        background: #000000;
+        margin: 60px 70px;
+        width: 56rem;
+        border-radius: 20px;
+    }
+    .mob-navbar .main-navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+    }
+    .main-navbar .search-logo{
+        width: 55px;
+    }
+    .margin-topbar {
+        margin-top: 0;
+    }
+    .vipnumber-section .row1 {
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 75px;
+        width: 746px;
+    }
+    .vipnumber-section #circle .text{
+        position: absolute;
+        top: 35%;
+        right: -90%;
+        width: 60%;
+        height: 400px;
+    }
+    .vipnumber-section #circle .image {
+        position: absolute;
+        top: 72%;
+        left: 150%;
+        width: 20%;
+    }
+    .search-number-tab{
+        margin-top: 100px;
+        width: 55rem;
+    }
+    .search-number-tab #mytab{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .search-number-tab .advance {
+        font-size: 40px;
+    }
+    .search-number-tab .search-tab-head {
+        font-size: 40px;
+        padding: 1rem 1.5rem !important;
+        border-top-left-radius: 1rem !important;
+        border-top-right-radius: 1rem !important;
+    }
+    .search-number-tab .mob-search{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .search-number-tab .mob-search .form-control {
+        font-size: 50px;
+    }
+    .search-number-tab .search-btn{
+        font-size: 40px;
+        padding: 14px 70px;
+    }
+    .search-number-tab input::placeholder {
+        font-size: 40px;
+    }
+    .exclusive-number {
+        width: 55rem;
+        margin: 20px 90px;
+    }
+    .exclusive-number .top-heading {
+        font-size: 45px;
+        margin-bottom: 3rem;
+        margin-top: 50px;
+    }
+    .exclusive-number .exclusive-content {
+        display: unset;
+    }
+    .exclusive-content .margin-right {
+        margin-right: 0;
+    }
+    .favorite-number .para {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .payamount .para {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .upc .para {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .retailer .para {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .activation .para {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+    } */
 }
 
 
