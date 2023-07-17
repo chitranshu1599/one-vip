@@ -8,6 +8,9 @@ html,body{
     background: #ffffff;
 }
 
+#mob-navbar{
+    display: none;
+}
 .navbar-section .topbar{
     border-radius: 30px;
     background-color: #000000;
@@ -234,8 +237,8 @@ html,body{
 
 .vipnumber-section #circle .image{ 
   position: absolute;
-  top: 283px;
-  right: 342px;
+  top: 247px;
+  right: 360px;
   width: 14%;
 }
 
@@ -489,9 +492,9 @@ html,body{
     justify-content: center;
 }
 
-/* .margin-topbar{
+.margin-topbar{
     margin-top: 80px;
-} */
+}
 
 hr.hr-line1{
     border-top: 3px dashed #00A1BA;
@@ -523,7 +526,7 @@ hr.hr-bottom{
     align-items: baseline;
 }
 
-.exclusive-number .exclusive-content-copy{
+.exclusive-number #exclusive-content-copy{
     display: none;
 }
 
@@ -764,7 +767,7 @@ hr.hr-bottom{
     align-items: center;
     border-radius: 20px;
 }
-.multiple-options-section .multiple-options-copy{
+.multiple-options-section #multiple-options-copy{
     display: none;
 }
 
@@ -894,6 +897,10 @@ hr.hr-bottom{
 }
 
 /* Footer section */
+
+#footer-section-copy{
+    display: none;
+}
 
 .footer-section{
     background: #000000;
@@ -2292,14 +2299,17 @@ hr.hr-bottom{
 }
 
 @media only screen and (Max-width: 451px) and (min-width: 330px) {
+
     #web-navbar{
         display: none;
+    }
+    #mob-navbar{
+        display: block;
     }
     .mob-navbar{
         background: #000000;
         margin-top: 30px;
         margin-bottom: 30px;
-        margin-left: 29px;
         width: 43.5rem;
         border-radius: 20px;
         box-sizing: border-box;
@@ -2314,35 +2324,36 @@ hr.hr-bottom{
         width: 55px;
     }
     .margin-topbar {
-        margin-top: 0;
+        margin-top: 180px;
     }
-    .vipnumber-section .row1 {
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 20px;
-        width: 746px;
+    .vipnumber-section{
+        width: 43.5rem;
+    }
+    .vipnumber-section .right-part{
+        overflow-x: hidden;
     }
     .vipnumber-section .left-part .head {
-        font-size: 48px;
+        font-size: 35px;
         font-weight: 500;
         line-height: 90px;
+        padding-left: 20px;
     }
     .vipnumber-section .left-part #text {
-        font-size: 48px;
+        font-size: 40px;
         font-weight: 700;
         line-height: 90px;
     }
     .vipnumber-section #circle .text{
         position: absolute;
         top: 22%;
-        right: -84%;
+        right: -69%;
         width: 60%;
         height: 250px;
     }
     .vipnumber-section #circle .image {
         position: absolute;
         top: 33%;
-        left: 142%;
+        left: 128%;
         width: 23%;
     }
     .search-number-tab{
@@ -2354,6 +2365,9 @@ hr.hr-bottom{
         justify-content: space-between;
         align-items: center;
     }
+    .search-number-tab .tab-content{
+        padding: 0px 0px 0px 20px;
+    }
     .search-number-tab .nav {
         justify-content: space-between;
     }
@@ -2362,7 +2376,7 @@ hr.hr-bottom{
     }
     .search-number-tab .search-tab-head {
         font-size: 30px;
-        padding: 0.5rem 0.7rem !important;
+        padding: 0.5rem 1rem !important;
         border-top-left-radius: 1rem !important;
         border-top-right-radius: 1rem !important;
     }
@@ -2393,17 +2407,16 @@ hr.hr-bottom{
 
     .exclusive-number {
         width: 43.5rem;
-        margin-left: 29px;
     }
     .exclusive-number .top-heading {
         font-size: 40px;
         margin-bottom: 3rem;
         margin-top: 50px;
     }
-    .exclusive-number .exclusive-content {
+    .exclusive-number #exclusive-content {
         display: none;
     }
-    .exclusive-number .exclusive-content-copy {
+    .exclusive-number #exclusive-content-copy {
         display: block;
     }
     .exclusive-content-copy .margin-right {
@@ -2481,7 +2494,6 @@ hr.hr-bottom{
     }
     .featured-vip-section{
         width: 43.5rem;
-        margin-left: 29px;
     }
     .featured-card-content .row {
         --bs-gutter-x: 3rem;
@@ -2524,13 +2536,15 @@ hr.hr-bottom{
     }
     .multiple-options-section{
         width: 43.5rem;
-        margin-left: 29px;
     }
     .multiple-options-section .multiple-options{
         display: none;
     }
-    .multiple-options-section .multiple-options-copy{
+    .multiple-options-section #multiple-options-copy{
         display: block;
+    }
+
+    .multiple-options-section .multiple-options-copy{
         background: #FFA800;
         padding: 35px;
         border-radius: 20px;
@@ -2552,30 +2566,62 @@ hr.hr-bottom{
     }
     .multiple-options-copy .satisfaction1 .img-category1{
         margin-left: 115px;
+        margin-bottom: 30px;
     }
     .multiple-options-copy .most-trusted1 .img-category2{
         margin-left: 115px;
+        margin-bottom: 30px;
     }
     .multiple-options-copy .lowest-price1 .img-category3{
         margin-left: 100px;
+        margin-bottom: 30px;
     }
     .multiple-options-copy .payment-options1 .img-category4{
         margin-left: 90px;
+        margin-bottom: 30px;
     }
     .testimonial-section{
         width: 43.5rem;
-        margin-left: 29px;
+        margin-bottom: 200px;
     }
     .testimonial-section .heading{
         font-size: 40px;
     }
 
-
-
-
-    .footer-section{
+    #footer-section{
         display: none;
     }
+
+    #footer-section-copy{
+        display: block;
+    }
+
+    .mob-footer{
+        background: #000000;
+    }
+    .mob-footer .main-footer{
+        padding: 35px 35px;
+    }
+    .main-footer .footer-icon{
+        width: 60px;
+        margin-right: 83px;
+    }
+    .main-footer .footer-icon1{
+        width: 60px;
+    }
+    .mob-padding{
+        padding: 0px 20px;
+    }
+    .add-to-cart-section{
+        width: 43.5rem;
+        padding-top: 20px;
+    }
+    .add-to-cart-section .add-left-cart-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     
 }
 
