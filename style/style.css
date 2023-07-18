@@ -1681,7 +1681,8 @@ hr.hr-bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 145px 0px;
+    margin-top: 145px;
+    margin-bottom: 145px;
 }
 
 .payment-failure .retry-payment{
@@ -1702,6 +1703,7 @@ hr.hr-bottom{
     font-family: Helvetica;
     font-size: 22px;
     font-weight: 500;
+    font-style: italic;
     line-height: 48px;
     letter-spacing: 0em;
     text-align: left;
@@ -2796,6 +2798,273 @@ hr.hr-bottom{
     .navbar-section .topbar4 {
         border-radius: 15px;
         background-color: #000000;
+    }
+    .login-margin {
+        margin-top: 230px;
+        margin-bottom: 50px;
+    }
+    .upc-section{
+        width: 44.2rem;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .upc-section .upc-heading {
+        font-size: 80px;
+        line-height: 100px;
+        margin-bottom: 30px;
+    }
+    .upc-section .upc-confirm {
+        font-size: 47px;
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+    .upc-section .upc-left-text{
+        width: 65%;
+    }
+    .upc-section .upc-para {
+        font-size: 27px;
+        margin-bottom: 25px;
+    }
+    .upc-section .order-img{
+        position: absolute;
+        top: 30%; 
+        left: 100%; 
+        width: 20rem;
+    }
+    .upc-details .upc-name {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .upc-details .upc-value {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .upc-section .upc-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .upc-section .upc-button .upc-btn {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 60px;
+        width: 270px;
+        border-radius: 40px;
+        margin-top: 30px;
+        margin-bottom: 0;   
+    }
+    .go-to-order .go-my-order {
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+        color: #00A1BA;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .payment-failure {
+        margin-top: 200px;
+        margin-bottom: 50px;
+        width: 44.2rem;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .payment-failure .failure-img{
+        position: absolute;
+        top: 55%; 
+        left: 30%; 
+        width: 30rem;
+    }
+    .payment-failure .left-retry-head {
+        font-size: 85px;
+        line-height: 100px;
+        text-align: left;
+        margin-bottom: 75%;
+    }
+    .payment-failure .retry-payment {
+        display: unset;
+        text-align: center;
+    }
+    .payment-failure .retry-para {
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .payment-failure .retry-button{
+        text-align: center;
+    }
+    .payment-failure .retry-button .retry-btn {
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 30px;
+    }
+    .page-not-found{
+        width: 44.2rem;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .pnf-margin {
+        margin-top: 300px;
+        margin-bottom: 100px;
+    }
+    .page-not-found .page-not-found-img {
+        margin-left: 15%;
+    }
+    .page-not-found .pnf-para {
+        font-size: 35px;
+        line-height: 60px;
+        text-align: center;
+        opacity: 0.5;
+        margin-top: 50px;
+        padding: 0px 70px;
+    }
+    .order-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44.2rem;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+    .order-section .order-right{
+        display: none;
+    }
+    .order .order-heading {
+        font-size: 85px;
+        line-height: 70px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .order .order-confirm {
+        font-size: 46px;
+        font-style: italic;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .order .order-para {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .order .order-details {
+        padding: 20px 20px;
+        margin-top: 10px;
+    }
+    .order-details .order-details-heading {
+        font-size: 50px;
+        line-height: 60px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .order-details .order-name {
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+    }
+    .order-details .order-value {
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+    }
+    .order .download-button .download-btn {
+        font-size: 30px;
+        line-height: 55px;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 40px;
+        margin-top: 30px;
+    }
+    .signup-margin {
+        margin-top: 190px;
+        margin-bottom: 10px;
+    }
+    .sign-up-page {
+        display: flex;
+        justify-content: space-between;
+        width: 44.2rem;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .sign-up-page .left-signup {
+        width: 42rem;
+    }
+    .sign-up-page .right-signup{
+        display: none;
+    }
+    .sign-up-page .create-account {
+        font-size: 85px;
+        font-weight: 700;
+        line-height: 80px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .sign-up-page .form-label {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+        margin-bottom: 0.5rem;
+    }
+    .sign-up-page .form-control {
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .sign-up-page .referral-para {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .sign-up-page .signup-btn {
+        font-size: 30px;
+        line-height: 50px;
+        border-radius: 30px;
+    }
+    .signin-margin {
+        margin-top: 400px;
+        margin-bottom: 200px;
+    }
+    .sign-up-page .message{
+        font-family: Helvetica;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .verify-margin {
+        margin-top: 400px;
+        margin-bottom: 150px;
+    }
+    .sign-up-page .otp-message {
+        font-family: Helvetica;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .otp-verify .ap-otp-input {
+        border: 2px solid #000000;
+        border-radius: 10px;
+        width: 10%;
+        height: 60px;
+        text-align: center;
+        font-size: 28px;
+    }
+    .otp-verify .otp-margin {
+        margin-right: 48px;
+    }
+    .payment-login{
+        width: 44.2rem;
     }
 }
 

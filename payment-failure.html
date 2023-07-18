@@ -12,7 +12,7 @@
 
 <body>
 
-    <div class="container fixed-top">
+    <div class="container fixed-top"  id="web-navbar">
         <div class="navbar-section pt-4">
           <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark topbar">
             <div class="container-fluid px-4">
@@ -129,7 +129,20 @@
             </div>
           </nav>
         </div>
-    </div>  
+    </div>
+    <div class="container fixed-top" id="mob-navbar">
+      <div class="mob-navbar">
+        <div class="main-navbar">
+          <div class="left-nav">
+            <img class="main-logo" src="/assets/img/logo.svg" alt="logo">
+          </div>
+          <div class="right-nav">
+            <a class="nav-link nav-heading" href="#" id="advance-tab" data-bs-toggle="modal" data-bs-target="#advance" type="button" role="tab" aria-controls="advance"
+                  aria-selected="true"><img class="search-logo" src="/assets/img/search.svg" alt="search"></a>
+          </div>
+        </div>
+      </div>
+    </div>    
     <div class="container">
         <div class="payment-failure">
             <div class="left-retry">
@@ -161,7 +174,7 @@
 
 
 
-    <div class="footer-section">
+    <div class="footer-section" id="footer-section">
       <div class="container">
         <div class="footer-content">
           <div class="left-footer">
@@ -230,6 +243,17 @@
           <div class="right">
             <span class="right-text">All Rights Reserved | <a class="text-white" href="t-and-c">Terms and Conditions <span class="mx-1">|</span> Privacy Policy</a></span>
           </div>
+        </div>
+      </div>
+    </div> 
+    <div class="footer-section-copy fixed-bottom" id="footer-section-copy">
+      <div class="mob-footer">
+        <div class="main-footer">
+          <a href="landing-page.html"><img class="footer-icon" src="/assets/img/mob-home.svg" alt="mob-home"></a>
+          <a href="store.html"><img class="footer-icon" src="/assets/img/mob-store.svg" alt="mob-store"></a>
+          <a href="#"><img class="footer-icon" src="/assets/img/mob-profile.svg" alt="mob-profile"></a>
+          <a href="mob-add-to-cart.html"><img class="footer-icon" src="/assets/img/mob-cart.svg" alt="mob-cart"></a>
+          <a href="#"><img class="footer-icon" src="/assets/img/mob-settings.svg" alt="mob-settings"></a>
         </div>
       </div>
     </div>  
