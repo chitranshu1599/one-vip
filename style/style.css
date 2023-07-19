@@ -1066,7 +1066,7 @@ hr.hr-bottom{
 /* Stor Navbar */
 
 .store-margin-top{
-    margin-top: 260px;
+    margin-top: 200px;
 }
 
 .store-promo .promo-banner{
@@ -1078,6 +1078,76 @@ hr.hr-bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#volet-copy{
+    display: none;
+}
+
+#volet {
+    width: 81rem;
+    height: 143px;
+    margin-top: 125px;
+    background: #fff;
+    color: #fff;
+    border-radius: 0 0 16px 0;
+    position: absolute;
+    top: -272px;
+    bottom: 200px;
+    left: 144px;
+    z-index: 10;
+    transition: all .5s ease-out;
+}
+
+
+#volet a.open,
+#volet a.close {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  position: absolute;
+  padding: 10px 25px;
+  top: 400px;
+  background: #FBAF02;
+  line-height: 20px;
+  height: 40px;
+  color: #fff;
+  text-decoration: none;
+  transform: rotate(0deg);
+  border-radius: 0 0 8px 8px;
+}
+
+#volet a.open {
+  left: 0;
+  top: 265px;
+  z-index: 1;
+  opacity: 1;
+}
+#volet a.close {
+  left: 0;
+  top: 129px;
+  z-index: -1;
+  opacity: 0;
+}
+
+
+#volet:target a.open {
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: all .5s ease-out;
+}
+#volet:target a.close {
+  left: 0;
+  z-index: 1;
+  opacity: 1;
+  transition: all .5s ease-out;
+}
+#volet:target {
+  top: 0px;
+}
+#volet .store-arrow{
+  width: 20px;
 }
 
 .sum-button{
@@ -2743,7 +2813,7 @@ hr.hr-bottom{
         background-color: #000000;
     }
     .store-margin-top {
-        margin-top: 370px;
+        margin-top: 230px;
         width: 43.5rem;
     }
     .store-promo{
@@ -3066,6 +3136,82 @@ hr.hr-bottom{
     .payment-login{
         width: 44.2rem;
     }
+    #store-navbar{
+        display: none;
+    }
+    #volet{
+        display: none;
+    }
+    #volet-copy{
+        display: block;
+    }
+    #volet-copy {
+        width: 42.5rem;
+        height: 200px;
+        margin-top: 160px;
+        background: #fff; 
+        color: #fff;	
+        border-radius: 0 0 16px 0;
+      
+      
+        position: absolute;
+        top: -272px; 
+        bottom: 200px;
+        left: 14px;
+        z-index:10;
+        transition: all .5s ease-out;
+      }
+      
+      
+      #volet-copy a.open,
+      #volet-copy a.close {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        position: absolute;
+        padding: 10px 25px;
+        top: 400px;
+        background: #FBAF02;
+        line-height: 20px;
+        height: 40px;
+        color: #fff;
+        text-decoration: none;
+        transform: rotate(0deg);
+        border-radius: 0 0 8px 8px;
+      }
+     
+      #volet-copy a.open {
+        left: 0;
+        top: 273px;
+        z-index: 1;
+        opacity: 1;
+      }
+      #volet-copy a.close {
+        left: 0;
+        top: 199px;
+        z-index: -1;
+        opacity: 0;
+      }
+      
+      
+      #volet-copy:target a.open {
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        transition: all .5s ease-out;
+      }
+      #volet-copy:target a.close {
+        left: 0;
+        z-index: 1;
+        opacity: 1;
+        transition: all .5s ease-out;
+      }
+      #volet-copy:target {
+        top: 0px;
+      }
+      #volet-copy .store-arrow{
+        width: 20px;
+      }
 }
 
 @media only screen and (Max-width: 600px) and (min-width: 450px) {
@@ -3528,6 +3674,20 @@ hr.hr-bottom{
     .navbar-section .topbar1 {
         border-radius: 20px;
     }
+    #volet {
+        width: 43.5rem;
+        height: 143px;
+        margin-top: 105px;
+        background: #fff;
+        color: #fff;
+        border-radius: 0 0 16px 0;
+        position: absolute;
+        top: -272px;
+        bottom: 200px;
+        left: 37px;
+        z-index: 10;
+        transition: all .5s ease-out;
+    }
     .sum-button {
         background-color: #FBAF02;
         border-radius: 20px;
@@ -3592,7 +3752,7 @@ hr.hr-bottom{
         width: 18px;
     }
     .store-margin-top {
-        margin-top: 240px;
+        margin-top: 175px;
     }
     .store-promo .promo-banner {
         width: -webkit-fill-available;
@@ -4175,6 +4335,20 @@ hr.hr-bottom{
     .navbar-section .topbar1 {
         border-radius: 20px;
     }
+    #volet {
+        width: 58.5rem;
+        height: 143px;
+        margin-top: 125px;
+        background: #fff;
+        color: #fff;
+        border-radius: 0 0 16px 0;
+        position: absolute;
+        top: -272px;
+        bottom: 200px;
+        left: 35px;
+        z-index: 10;
+        transition: all .5s ease-out;
+    }
     .sum-button {
         background-color: #FBAF02;
         border-radius: 20px;
@@ -4239,7 +4413,7 @@ hr.hr-bottom{
         width: 18px;
     }
     .store-margin-top {
-        margin-top: 240px;
+        margin-top: 200px;
     }
     .store-promo .promo-banner {
         width: -webkit-fill-available;
@@ -4828,6 +5002,20 @@ hr.hr-bottom{
     .navbar-section .topbar1 {
         border-radius: 20px;
     }
+    #volet {
+        width: 58.5rem;
+        height: 143px;
+        margin-top: 125px;
+        background: #fff;
+        color: #fff;
+        border-radius: 0 0 16px 0;
+        position: absolute;
+        top: -272px;
+        bottom: 200px;
+        left: 102px;
+        z-index: 10;
+        transition: all .5s ease-out;
+    }
     .sum-button {
         background-color: #FBAF02;
         border-radius: 20px;
@@ -4892,7 +5080,7 @@ hr.hr-bottom{
         width: 18px;
     }
     .store-margin-top {
-        margin-top: 260px;
+        margin-top: 200px;
     }
     .store-promo .promo-banner {
         width: -webkit-fill-available;
@@ -5481,6 +5669,20 @@ hr.hr-bottom{
     .navbar-section .topbar1 {
         border-radius: 20px;
     }
+    #volet {
+        width: 69.8rem;
+        height: 143px;
+        margin-top: 125px;
+        background: #fff;
+        color: #fff;
+        border-radius: 0 0 16px 0;
+        position: absolute;
+        top: -272px;
+        bottom: 200px;
+        left: 123px;
+        z-index: 10;
+        transition: all .5s ease-out;
+    }
     .sum-button {
         background-color: #FBAF02;
         border-radius: 20px;
@@ -5545,7 +5747,7 @@ hr.hr-bottom{
         width: 18px;
     }
     .store-margin-top {
-        margin-top: 260px;
+        margin-top: 200px;
     }
     .store-promo .promo-banner {
         width: -webkit-fill-available;
