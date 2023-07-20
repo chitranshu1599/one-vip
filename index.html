@@ -137,7 +137,7 @@
         </div>
         <div class="right-nav">
           <a class="nav-link nav-heading" href="#" id="advance-tab" data-bs-toggle="modal" data-bs-target="#advance" type="button" role="tab" aria-controls="advance"
-                aria-selected="true"><img class="search-logo" src="/assets/img/search.svg" alt="search"></a>
+                aria-selected="true"><img class="topnav-logo" src="/assets/img/search.svg" alt="search"></a>
         </div>
       </div>
     </div>
@@ -151,92 +151,7 @@
             <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link ms-1 search-tab-head advance" id="advance-tab" data-bs-toggle="modal" data-bs-target="#advance" type="button" role="tab" aria-controls="advance"
-                  aria-selected="true">Advance</button>
-                  <div class="modal fade" id="advance" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="advanceLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content1">
-                        <div class="modal-content1 modal-box1">
-                          <div class="modal-header p-0" style="border-bottom: 0;">
-                            <div>
-                              <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                  <button class="nav-link p-0 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Search</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                  <button class="nav-link p-0" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Advance Search</button>
-                                </li>
-                              </ul>
-                            </div>
-                            <div class="pe-2">
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                          </div>
-                          <div class="tab-content search-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                              <div class="advance-box">
-                                <div class="search-option">
-                                  <input class="form-control me-2" type="search" placeholder="Enter Number" aria-label="Search">
-                                </div>
-                                <div class="radio-option">
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                      Start With
-                                    </label>
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                    <label class="form-check-label" for="flexRadioDefault2">
-                                      End With
-                                    </label>
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                    <label class="form-check-label" for="flexRadioDefault2">
-                                      Anywhere
-                                    </label>
-                                  </div>
-                                </div>
-                                <div class="submit-button">
-                                  <button class="btn rounded-pill advance-btn" type="submit">Search</button>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                              <div class="advance-search">
-                                <div class="numb-placement mb-4">
-                                  <h3 class="heading">Number Placement</h3>
-                                  <div class="d-flex justify-content-between align-items-center">
-                                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Start with e.g.(+91 8819)" aria-label="Search">
-                                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Anywhere" aria-label="Search">
-                                    <input class="form-control me-2 rounded-pill" type="search" placeholder="End With" aria-label="Search">
-                                  </div>
-                                </div>
-                                <div class="others mb-4">
-                                  <h3 class="heading">Others (For multiple values use comma (s) e.g. 14, 18)</h3>
-                                  <div class="d-flex justify-content-between align-items-center">
-                                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Start with e.g.(+91 8819)" aria-label="Search">
-                                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Anywhere" aria-label="Search">
-                                    <input class="form-control me-2 rounded-pill" type="search" placeholder="End With" aria-label="Search">
-                                  </div>
-                                </div>
-                                <div class="totalsum mb-4">
-                                  <h3 class="heading">Total/Sum</h3>
-                                  <div class="d-flex justify-content-between align-items-center">
-                                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Number Total" aria-label="Search">
-                                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Number Sum" aria-label="Search">
-                                  </div>
-                                </div>
-                                <div class="submit-button">
-                                  <button class="btn rounded-pill advance-btn" type="submit">Search</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  aria-selected="true">Advance</button> 
               </li>
               <li class="nav-item" role="presentation">
                 <button class="nav-link ms-1 search-tab-head active" id="anywhere-tab" data-bs-toggle="tab"
@@ -1203,3 +1118,88 @@ function consoleText(words, id, colors) {
 </body>
 
 </html>
+<div class="modal modal-copy fade" id="advance" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="advanceLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content1">
+      <div class="modal-content1 modal-box1">
+        <div class="modal-header p-0" style="border-bottom: 0;">
+          <div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link p-0 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Search</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link p-0" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Advance Search</button>
+              </li>
+            </ul>
+          </div>
+          <div class="pe-2">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="tab-content search-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="advance-box">
+              <div class="search-option">
+                <input class="form-control me-2" type="search" placeholder="Enter Number" aria-label="Search">
+              </div>
+              <div class="radio-option">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Start With
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    End With
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Anywhere
+                  </label>
+                </div>
+              </div>
+              <div class="submit-button">
+                <button class="btn rounded-pill advance-btn" type="submit">Search</button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="advance-search">
+              <div class="numb-placement mb-4">
+                <h3 class="heading">Number Placement</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Start with e.g.(+91 8819)" aria-label="Search">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Anywhere" aria-label="Search">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="End With" aria-label="Search">
+                </div>
+              </div>
+              <div class="others mb-4">
+                <h3 class="heading">Others (For multiple values use comma (s) e.g. 14, 18)</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Start with e.g.(+91 8819)" aria-label="Search">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Anywhere" aria-label="Search">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="End With" aria-label="Search">
+                </div>
+              </div>
+              <div class="totalsum mb-4">
+                <h3 class="heading">Total/Sum</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Number Total" aria-label="Search">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Number Sum" aria-label="Search">
+                </div>
+              </div>
+              <div class="submit-button">
+                <button class="btn rounded-pill advance-btn" type="submit">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
