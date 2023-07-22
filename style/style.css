@@ -3,6 +3,7 @@ body {
     background-color: #ffffff;
     font-family: Helvetica;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 
 .fixed-top {
@@ -2279,6 +2280,7 @@ hr.hr-bottom {
 .order-content-right .right-order-img {
     margin-left: 125px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .order-content-right .info-coin {
@@ -3575,7 +3577,7 @@ hr.hr-bottom {
     }
     .profile-margin {
         margin-top: 250px;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
     .profile-page{
         width: 44.2rem;
@@ -3646,6 +3648,10 @@ hr.hr-bottom {
         position: relative;
         width: 235px;
     }
+    .order1-margin {
+        margin-top: 270px;
+        margin-bottom: 150px;
+    }
     .order-filter .select-selected {
         padding: 8px 35px;
         font-size: 23px;
@@ -3657,6 +3663,192 @@ hr.hr-bottom {
         width: 18px;
         height: 20px;
     }
+    .select-go {
+        background: #FBAF02;
+        width: 46px;
+        height: 46px;
+        text-align: center;
+        border-radius: 24px;
+        position: relative;
+        right: 40px;
+    }
+    .select-go .go {
+        font-family: Helvetica;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+    }
+    .my-order-page .bottom-count {
+        font-family: Helvetica;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #00A1BA;
+    }
+    .refer-and-earn-page .right-refer-earn{
+        display: none;
+    }
+    .refer-and-earn-page .refer-and-earn {
+        width: 44.2rem;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .refer-and-earn-page .left-refer-earn{
+        width: 43.5rem;
+    }
+    .refer-margin{
+        margin-top: 270px;
+        margin-bottom: 150px;
+    }
+    .refer-and-earn .top-coin-head {
+        font-size: 35px;
+    }
+    .refer-and-earn .collected-coin {
+        width: 28px;
+        margin-left: 8px;
+        position: relative;
+        bottom: 3px;
+    }
+    .refer-and-earn .top-refer-head {
+        font-size: 84px;
+        line-height: 90px;
+    }
+    .refer-and-earn .top-refer-para {
+        font-size: 32px;
+        line-height: 45px;
+        margin-top: 30px;
+    }   
+    .email-form .form-label {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .email-form .form-control {
+        font-size: 30px;
+        border-radius: 30px;
+        margin-bottom: 50px;
+    }
+    .middle-refer .email-form {
+        display: unset;
+    }
+    .email-form .email-btn {
+        font-size: 30px;
+        border-radius: 30px;
+    }
+    .email-form .email-button {
+        margin-left: 0;
+        text-align: center;
+    }
+    .refer-and-earn .middle-or {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .refer-and-earn .referral-btn {
+        font-size: 30px;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .refer-and-earn .referral-para {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 50px;
+    }
+    .refer-and-earn .copy-logo {
+        margin-left: 10px;
+        width: 30px;
+    }
+    .refer-and-earn .bottom-refer-para {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .order-margin {
+        margin-top: 280px;
+        margin-bottom: 180px;
+    }
+    .width{
+        width: 44.2rem;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .order-details-section {
+        display: unset;
+    }
+    .order-details .heading1 {
+        font-size: 84px;
+        line-height: 90px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .order-details .order-details-confirm {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+    .order-details .order-details-para {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .order-details-left .order-details-details {
+        margin-top: 550px;
+    }
+    .profile-modal .modal-content {
+        width: 50%;
+    }
+    .order-filter .select-items {
+        width: 165px;
+    }
+    .order-details-section .order-right{
+        width: 165%;
+        position: absolute;
+        top: 110%;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .order-details-section .order-upc {
+        padding: 50px 30px;
+    }
+    
+    .order-details-section .order-upc-text {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .order-details-details .order-details-value {
+        font-family: Helvetica;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .order-details-button .order-details-btn {
+        font-size: 30px;
+        width: 328px;
+        line-height: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+    .order-details-button .order-disabled-btn {
+        font-size: 30px;
+        width: 328px;
+        line-height: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+
+    
 }
 
 @media only screen and (Max-width: 600px) and (min-width: 450px) {
