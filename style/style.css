@@ -2459,6 +2459,50 @@ hr.hr-bottom {
     text-align: left;
 }
 
+.about-margin{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.about-us-page .about-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-page .about-heading{
+    font-family: Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.about-us-page .about-sub-heading{
+    font-family: Helvetica;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.about-us-page .about-para{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: justify;
+
+}
+
+.about-us-page .right-about .about-img{
+    width: 40vw;
+    height: 133vh;
+}
+
 
 /* Side Navbar */
 @media screen and (max-height: 450px) {
@@ -4772,6 +4816,26 @@ hr.hr-bottom {
     .otp-verify .otp-margin {
         margin-right: 24px;
     }
+    .about-margin {
+        margin-top: 120px;
+        margin-bottom: 30px;
+    }
+    .about-us-page .about-heading {
+        font-size: 50px;
+        line-height: 80px;
+    }
+    .about-us-page .about-sub-heading {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .about-us-page .about-para {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .about-us-page .right-about .about-img {
+        width: 45vw;
+        height: 243vh;
+    }
 
 
 }
@@ -5586,6 +5650,27 @@ hr.hr-bottom {
 
     .otp-verify .otp-margin {
         margin-right: 39px;
+    }
+
+    .about-margin {
+        margin-top: 140px;
+        margin-bottom: 30px;
+    }
+    .about-us-page .about-heading {
+        font-size: 55px;
+        line-height: 85px;
+    }
+    .about-us-page .about-sub-heading {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .about-us-page .about-para {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .about-us-page .right-about .about-img {
+        width: 48vw;
+        height: 236vh;
     }
 
 }
@@ -6411,6 +6496,27 @@ hr.hr-bottom {
         margin-right: 36px;
     }
 
+    .about-margin {
+        margin-top: 140px;
+        margin-bottom: 30px;
+    }
+    .about-us-page .about-heading {
+        font-size: 60px;
+        line-height: 90px;
+    }
+    .about-us-page .about-sub-heading {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .about-us-page .about-para {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .about-us-page .right-about .about-img {
+        width: 45vw;
+        height: 230vh;
+    }
+
 }
 
 @media only screen and (max-width: 1450px) and (min-width: 1251px) {
@@ -7230,5 +7336,26 @@ hr.hr-bottom {
 
     .otp-verify .otp-margin {
         margin-right: 40px;
+    }
+
+    .about-margin {
+        margin-top: 140px;
+        margin-bottom: 30px;
+    }
+    .about-us-page .about-heading {
+        font-size: 64px;
+        line-height: 100px;
+    }
+    .about-us-page .about-sub-heading {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .about-us-page .about-para {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .about-us-page .right-about .about-img {
+        width: 45vw;
+        height: 237vh;
     }
 }
