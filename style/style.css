@@ -2460,7 +2460,7 @@ hr.hr-bottom {
 }
 
 .about-margin{
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 30px;
 }
 
@@ -2503,6 +2503,286 @@ hr.hr-bottom {
     height: 133vh;
 }
 
+.contact-us-margin{
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.contact-us-page .contact-us-heading{
+    font-family: Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.contact-us-page .top-contact{
+    margin-bottom: 35px;
+}
+
+.contact-us-page .top-contact-heading{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contact-us-page .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #9A9A9A;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 13px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.contact-us-page .middle-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.contact-us-page .middle-left{
+    width: 60%;
+}
+
+.contact-us-page .middle-left-heading{
+    font-family: Helvetica;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contact-us-page .middle-left-para{
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contact-us-page .contact-us-img{
+    width: 25rem;
+}
+
+.contact-us-page .bottom-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.contact-us-page .bottom-center-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-us-page .bottom-left-head{
+    font-family: Helvetica;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contact-us-page .bottom-left-para{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.005em;
+    text-align: left;
+}
+
+.contact-us-page .center-left-head{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFA800;
+}
+
+.contact-us-page .contact-us-people{
+    width: 30px;
+}
+
+.contact-us-page .contact-us-mssg{
+    width: 30px;
+}
+
+.contact-us-page .contact-us-btn{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00A1BA;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.contact-us-page .contact-us-btn:hover{
+    background-color: #FFA800;
+}
+
+.contact-us-page .lower-contact-img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.steps-to-buy-page{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.steps-to-buy-margin{
+    margin-top: 170px;
+    margin-bottom: 30px;
+}
+
+.steps-to-buy-page .steps-to-buy-heading{
+    font-family: Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.steps-to-buy-page .steps-buy-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.steps-to-buy-page .steps-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.steps-to-buy-page .right-part-head{
+    font-family: Helvetica;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.steps-to-buy-page .right-part-para{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: justify;
+}
+.steps-to-buy-page .browsing{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00A1BA;
+}
+
+.steps-to-buy-page .steps-left-img{
+    width: 10rem;
+    margin-right: 30px;
+}
+
+.steps-to-buy-page .steps-right-img{
+    width: 18rem;
+}
+.steps-to-buy-page .steps-buy-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.steps-to-buy-page .steps-right2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.steps-to-buy-page .right-part-head1{
+    font-family: Helvetica;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.steps-to-buy-page .right-part-para1{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.steps-to-buy-page .steps-left-img1{
+    width: 10rem;
+    margin-left: 30px;
+}
+
+.steps-to-buy-page .steps-right-img1{
+    width: 18rem;
+}
+.steps-to-buy-page .steps-buy-three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.steps-to-buy-page .right-part-subhead{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.steps-to-buy-page .steps-buy-four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.steps-to-buy-page .steps-buy-five{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
 
 /* Side Navbar */
 @media screen and (max-height: 450px) {
@@ -4836,6 +5116,120 @@ hr.hr-bottom {
         width: 45vw;
         height: 243vh;
     }
+    .contact-us-page .contact-us-heading {
+        font-size: 45px;
+        line-height: 60px;
+    }    
+    .contact-us-page .top-contact-heading {
+        font-size: 11px;
+        line-height: 25px;
+    }    
+
+    .contact-us-page .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        position: relative;
+        left: 0px;
+    }
+    .contact-us-page .contact-us-btn {
+        font-size: 12px;
+    }
+    .contact-us-page .middle-left-heading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .contact-us-page .middle-left-para {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .contact-us-page .form-control{
+        line-height: 18px;
+    }
+    .contact-us-page .bottom-left-head {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .contact-us-page .bottom-left-para {
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+    .contact-us-page .center-left-head {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .contact-us-page .contact-us-people {
+        width: 18px;
+    }
+    .contact-us-page .contact-us-mssg {
+        width: 18px;
+    }
+    .contact-us-page .lower-contact-img {
+        width: 18px;
+        margin-right: 10px;
+    }
+    .contact-us-page .lower-contact{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .contact-us-page .contact-us-img {
+        width: 12rem;
+    }
+    .steps-to-buy-page {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .steps-to-buy-margin {
+        margin-top: 120px;
+        margin-bottom: 30px;
+    }
+    .steps-to-buy-page .steps-to-buy-heading {
+        font-size: 45px;
+        line-height: 70px;
+    }
+    .steps-to-buy-page .steps-left-img {
+        width: 7rem;
+        margin-right: 20px;
+    }
+    .steps-to-buy-page .steps-right-img {
+        width: 12rem;
+    }
+    .steps-to-buy-page .right-part-head {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .steps-to-buy-page .right-part-para {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .steps-to-buy-page .browsing {
+        font-size: 12px;
+    }
+    .steps-to-buy-page .steps-left-img1 {
+        width: 7rem;
+        margin-right: 20px;
+    }
+    .steps-to-buy-page .steps-right-img1 {
+        width: 12rem;
+    }
+    .steps-to-buy-page .right-part-head1 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .steps-to-buy-page .right-part-para1 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .steps-to-buy-page .steps-right2{
+        width: unset;
+    }
+    .steps-to-buy-page .right-part-subhead{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .steps-to-buy-page .steps-left{
+        width: 65%;
+    }
 
 
 }
@@ -5672,6 +6066,121 @@ hr.hr-bottom {
         width: 48vw;
         height: 236vh;
     }
+    .contact-us-page .contact-us-heading {
+        font-size: 50px;
+        line-height: 70px;
+    }    
+    .contact-us-page .top-contact-heading {
+        font-size: 13px;
+        line-height: 28px;
+    }    
+
+    .contact-us-page .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        position: relative;
+        left: 0px;
+    }
+    .contact-us-page .contact-us-btn {
+        font-size: 14px;
+    }
+    .contact-us-page .middle-left-heading {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .contact-us-page .middle-left-para {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .contact-us-page .form-control{
+        line-height: 20px;
+    }
+    .contact-us-page .bottom-left-head {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .contact-us-page .bottom-left-para {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
+    .contact-us-page .center-left-head {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .contact-us-page .contact-us-people {
+        width: 22px;
+    }
+    .contact-us-page .contact-us-mssg {
+        width: 22px;
+    }
+    .contact-us-page .lower-contact-img {
+        width: 22px;
+        margin-right: 10px;
+    }
+    .contact-us-page .lower-contact{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .contact-us-page .contact-us-img {
+        width: 18rem;
+    }
+    .steps-to-buy-page {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .steps-to-buy-margin {
+        margin-top: 120px;
+        margin-bottom: 30px;
+    }
+    .steps-to-buy-page .steps-to-buy-heading {
+        font-size: 55px;
+        line-height: 80px;
+    }
+    .steps-to-buy-page .steps-left-img {
+        width: 8rem;
+        margin-right: 20px;
+    }
+    .steps-to-buy-page .steps-right-img {
+        width: 14rem;
+    }
+    .steps-to-buy-page .right-part-head {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .steps-to-buy-page .right-part-para {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .steps-to-buy-page .browsing {
+        font-size: 14px;
+    }
+    .steps-to-buy-page .steps-left-img1 {
+        width: 8rem;
+        margin-right: 20px;
+    }
+    .steps-to-buy-page .steps-right-img1 {
+        width: 14rem;
+    }
+    .steps-to-buy-page .right-part-head1 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .steps-to-buy-page .right-part-para1 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .steps-to-buy-page .steps-right2{
+        width: 55%;
+    }
+    .steps-to-buy-page .right-part-subhead{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .steps-to-buy-page .steps-left{
+        width: 55%;
+    }
+
 
 }
 
@@ -6516,6 +7025,120 @@ hr.hr-bottom {
         width: 45vw;
         height: 230vh;
     }
+    .contact-us-page .contact-us-heading {
+        font-size: 55px;
+        line-height: 80px;
+    }    
+    .contact-us-page .top-contact-heading {
+        font-size: 14px;
+        line-height: 30px;
+    }    
+
+    .contact-us-page .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        position: relative;
+        left: 0px;
+    }
+    .contact-us-page .contact-us-btn {
+        font-size: 16px;
+    }
+    .contact-us-page .middle-left-heading {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .contact-us-page .middle-left-para {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .contact-us-page .form-control{
+        line-height: 22px;
+    }
+    .contact-us-page .bottom-left-head {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .contact-us-page .bottom-left-para {
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+    .contact-us-page .center-left-head {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .contact-us-page .contact-us-people {
+        width: 25px;
+    }
+    .contact-us-page .contact-us-mssg {
+        width: 25px;
+    }
+    .contact-us-page .lower-contact-img {
+        width: 25px;
+        margin-right: 10px;
+    }
+    .contact-us-page .lower-contact{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .contact-us-page .contact-us-img {
+        width: 22rem;
+    }
+    .steps-to-buy-page {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .steps-to-buy-margin {
+        margin-top: 120px;
+        margin-bottom: 30px;
+    }
+    .steps-to-buy-page .steps-to-buy-heading {
+        font-size: 60px;
+        line-height: 85px;
+    }
+    .steps-to-buy-page .steps-left-img {
+        width: 9rem;
+        margin-right: 23px;
+    }
+    .steps-to-buy-page .steps-right-img {
+        width: 16rem;
+    }
+    .steps-to-buy-page .right-part-head {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .steps-to-buy-page .right-part-para {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .steps-to-buy-page .browsing {
+        font-size: 15px;
+    }
+    .steps-to-buy-page .steps-left-img1 {
+        width: 9rem;
+        margin-right: 20px;
+    }
+    .steps-to-buy-page .steps-right-img1 {
+        width: 15rem;
+    }
+    .steps-to-buy-page .right-part-head1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .steps-to-buy-page .right-part-para1 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .steps-to-buy-page .steps-right2{
+        width: 64%;
+    }
+    .steps-to-buy-page .right-part-subhead{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .steps-to-buy-page .steps-left{
+        width: 64%;
+    }
 
 }
 
@@ -7357,5 +7980,119 @@ hr.hr-bottom {
     .about-us-page .right-about .about-img {
         width: 45vw;
         height: 237vh;
+    }
+    .contact-us-page .contact-us-heading {
+        font-size: 64px;
+        line-height: 90px;
+    }    
+    .contact-us-page .top-contact-heading {
+        font-size: 16px;
+        line-height: 34px;
+    }    
+
+    .contact-us-page .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        position: relative;
+        left: 0px;
+    }
+    .contact-us-page .contact-us-btn {
+        font-size: 18px;
+    }
+    .contact-us-page .middle-left-heading {
+        font-size: 33px;
+        line-height: 45px;
+    }
+    .contact-us-page .middle-left-para {
+        font-size: 33px;
+        line-height: 45px;
+    }
+    .contact-us-page .form-control{
+        line-height: 25px;
+    }
+    .contact-us-page .bottom-left-head {
+        font-size: 33px;
+        line-height: 30px;
+    }
+    .contact-us-page .bottom-left-para {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .contact-us-page .center-left-head {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .contact-us-page .contact-us-people {
+        width: 30px;
+    }
+    .contact-us-page .contact-us-mssg {
+        width: 30px;
+    }
+    .contact-us-page .lower-contact-img {
+        width: 30px;
+        margin-right: 10px;
+    }
+    .contact-us-page .lower-contact{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .contact-us-page .contact-us-img {
+        width: 25rem;
+    }
+    .steps-to-buy-page {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .steps-to-buy-margin {
+        margin-top: 120px;
+        margin-bottom: 30px;
+    }
+    .steps-to-buy-page .steps-to-buy-heading {
+        font-size: 64px;
+        line-height: 90px;
+    }
+    .steps-to-buy-page .steps-left-img {
+        width: 10rem;
+        margin-right: 23px;
+    }
+    .steps-to-buy-page .steps-right-img {
+        width: 18rem;
+    }
+    .steps-to-buy-page .right-part-head {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .steps-to-buy-page .right-part-para {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .steps-to-buy-page .browsing {
+        font-size: 16px;
+    }
+    .steps-to-buy-page .steps-left-img1 {
+        width: 10rem;
+        margin-right: 20px;
+    }
+    .steps-to-buy-page .steps-right-img1 {
+        width: 16rem;
+    }
+    .steps-to-buy-page .right-part-head1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .steps-to-buy-page .right-part-para1 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .steps-to-buy-page .steps-right2{
+        width: 64%;
+    }
+    .steps-to-buy-page .right-part-subhead{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .steps-to-buy-page .steps-left{
+        width: 64%;
     }
 }
