@@ -2631,6 +2631,10 @@ hr.hr-bottom {
     width: 30px;
 }
 
+.contact-us-page .contact-us-unstuck{
+    display: none;
+}
+
 .contact-us-page .contact-us-btn{
     font-family: Helvetica;
     font-size: 18px;
@@ -4171,6 +4175,182 @@ hr.hr-bottom {
         border-radius: 30px;
         margin-top: 30px;
     }
+    .about-margin {
+        margin-top: 260px;
+        margin-bottom: 0;
+    }
+    .about-us-page .about-us{
+        width: 44.2rem;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .about-us-page .right-about{
+        position: absolute;
+        transform: rotate(90deg);
+        top: -380px;
+        width: 12rem;
+    }
+    .about-us-page .right-about .about-img {
+        width: 50vw;
+        height: 150vh;
+    }
+    .contact-us-margin {
+        margin-top: 200px;
+        margin-bottom: 180px;
+    }
+    .contact-us-page .contact-us{
+        width: 44.2rem;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .contact-us-page .contact-us-heading {
+        font-size: 84px;
+        line-height: 80px;
+        padding-right: 45px;
+        margin-bottom: 30px;
+    }
+    .contact-us-page .top-contact {
+        margin-bottom: 35px;
+    }
+    .contact-us-page .top-contact-heading {
+        font-size: 30px;
+        line-height: 35px;
+    }    
+    .contact-us-page .form-control {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .contact-us-page .contact-us-btn {
+        font-size: 30px;
+        line-height: 50px;
+        border-radius: 30px;
+        width: 40%;
+    }
+    .contact-us-page .middle-left {
+        width: 100%;
+    }
+    .contact-us-page .middle-left-heading {
+        font-size: 42px;
+    }
+    .contact-us-page .middle-left-para {
+        font-size: 42px;
+    }
+    .contact-us-page .middle-right{
+        display: none;
+    }
+    .contact-us-page .bottom-contact {
+        display: unset;
+    }
+    .contact-us-page .bottom-left,.bottom-center,.bottom-right{
+        margin-left: 80px;
+        margin-bottom: 50px;
+    }
+    .contact-us-page .contact-us-people {
+        width: 65px;
+        position: absolute;
+        bottom: -107%;
+        left: 33px;
+    }
+    .contact-us-page .contact-us-mssg {
+        width: 65px;
+        position: absolute;
+        bottom: -139%;
+        left: 33px;
+    }
+    .contact-us-page .contact-us-unstuck {
+        display: block;
+        width: 65px;
+        position: absolute;
+        bottom: -165%;
+        left: 33px;
+    }
+    .contact-us-page .bottom-left-head {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .contact-us-page .bottom-left-para {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .contact-us-page .center-left-head {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .contact-us-page .bottom-center-link {
+        display: unset;
+    }
+    .contact-us-page .lower-contact{
+        font-size: 30px;
+    }
+    .contact-us-page .lower-contact-img {
+        width: 35px;
+    }
+    .mob-steps-margin{
+        margin-top: 200px;
+        margin-bottom: 170px;
+    }
+    .mob-steps-to-buy .mob-steps-buy{
+        width: 44.2rem;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .mob-steps-to-buy .steps-to-buy-heading{
+        font-family: Helvetica;
+        font-size: 84px;
+        font-weight: 700;
+        line-height: 90px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .mob-steps-to-buy .steps-buy-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .mob-steps-to-buy .steps-buy-sub-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .mob-steps-to-buy .right-head{
+        font-family: Helvetica;
+        width: 93%;
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .mob-steps-to-buy .right-para{
+        font-family: Helvetica;
+        width: 93%;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: justify;
+    }
+    .mob-steps-to-buy .browsing{
+        font-family: Helvetica;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #00A1BA;
+    }
+    .mob-steps-to-buy .steps-left-img{
+        width: 8rem;
+    }
+    .mob-steps-to-buy .steps-right-img{
+        width: 14rem;
+    }
+
+
 
     
 }
