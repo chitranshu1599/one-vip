@@ -148,9 +148,9 @@ body {
     align-items: center;
 }
 
-.dropdown1 .dropdown-menu[data-bs-popper] {
+.dropdown-menu[data-bs-popper] {
     top: 100%;
-    left: -50px;
+    left: -14px;
     margin-top: 0.125rem;
 }
 
@@ -3345,7 +3345,7 @@ hr.hr-bottom {
         width: 30px;
     }
 
-    .category-button .dropdown-menu[data-bs-popper] {
+    .dropdown-menu[data-bs-popper] {
         top: 100%;
         left: -146px;
         margin-top: 0.125rem;
